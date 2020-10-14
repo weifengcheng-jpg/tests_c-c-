@@ -1,0 +1,3 @@
+/home/working/tests/build/CMakeFiles/rebuild_cache.dir
+/home/working/tests/build/CMakeFiles/strftime.exe.dir
+/home/working/tests/build/CMakeFiles/edit_cache.dir

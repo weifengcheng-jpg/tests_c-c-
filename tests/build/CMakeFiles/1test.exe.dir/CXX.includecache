@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/working/tests/sylar/log.h
+
+/home/working/tests/tests/1test.cc
+iostream
+-
+../sylar/log.h
+/home/working/tests/sylar/log.h
+

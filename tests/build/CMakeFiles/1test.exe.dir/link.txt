@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations  -rdynamic CMakeFiles/1test.exe.dir/tests/1test.cc.o  -o 1test.exe -Wl,-rpath,/home/working/tests/build/lib lib/libtest_lib.so 
