@@ -31,7 +31,7 @@ add_executable(strftime.exe ./tests/strftime_test.cc)
 include_directories(/usr/local/include)
 link_directories(/usr/local/lib64)
 add_executable(yaml_test3.exe tests/yaml_test3.cc)
-target_link_libraries(yaml_test3.exe -L/usr/lib64 -lyaml-cpp)
+target_link_libraries(yaml_test3.exe -L/usr/local/lib64 -lyaml-cpp)
 
 
 
