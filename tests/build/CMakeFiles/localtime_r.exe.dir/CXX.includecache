@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/working/tests_c-c-/tests/tests/strftime_test.cc
-stdio.h
--
+/home/working/tests_c-c-/tests/tests/localtime_r.cc
 time.h
 -
-locale.h
+stdio.h
 -
 iostream
 -

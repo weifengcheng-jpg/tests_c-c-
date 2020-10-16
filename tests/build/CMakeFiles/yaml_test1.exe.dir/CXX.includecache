@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/working/tests_c-c-/tests/tests/strftime_test.cc
-stdio.h
--
-time.h
--
-locale.h
--
+/home/working/tests_c-c-/tests/tests/yaml_test1.cc
 iostream
+-
+yaml-cpp/yaml.h
 -
 

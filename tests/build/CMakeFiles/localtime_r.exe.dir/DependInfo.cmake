@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/working/tests_c-c-/tests/tests/strftime_test.cc" "/home/working/tests_c-c-/tests/build/CMakeFiles/strftime.exe.dir/tests/strftime_test.cc.o"
+  "/home/working/tests_c-c-/tests/tests/localtime_r.cc" "/home/working/tests_c-c-/tests/build/CMakeFiles/localtime_r.exe.dir/tests/localtime_r.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
   )
 
 # Targets to which this target links.

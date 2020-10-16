@@ -51,24 +51,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/working/tests
+CMAKE_SOURCE_DIR = /home/working/tests_c-c-/tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/working/tests/build
+CMAKE_BINARY_DIR = /home/working/tests_c-c-/tests/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -81,11 +70,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests/build/CMakeFiles /home/working/tests/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles /home/working/tests_c-c-/tests/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -126,6 +126,19 @@ strftime.exe/fast:
 	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/build
 .PHONY : strftime.exe/fast
 
+#=============================================================================
+# Target rules for targets named yaml_test3.exe
+
+# Build rule for target.
+yaml_test3.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yaml_test3.exe
+.PHONY : yaml_test3.exe
+
+# fast build rule for target.
+yaml_test3.exe/fast:
+	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/build
+.PHONY : yaml_test3.exe/fast
+
 tests/strftime_test.o: tests/strftime_test.cc.o
 
 .PHONY : tests/strftime_test.o
@@ -153,18 +166,49 @@ tests/strftime_test.cc.s:
 	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/tests/strftime_test.cc.s
 .PHONY : tests/strftime_test.cc.s
 
+tests/yaml_test3.o: tests/yaml_test3.cc.o
+
+.PHONY : tests/yaml_test3.o
+
+# target to build an object file
+tests/yaml_test3.cc.o:
+	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/tests/yaml_test3.cc.o
+.PHONY : tests/yaml_test3.cc.o
+
+tests/yaml_test3.i: tests/yaml_test3.cc.i
+
+.PHONY : tests/yaml_test3.i
+
+# target to preprocess a source file
+tests/yaml_test3.cc.i:
+	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/tests/yaml_test3.cc.i
+.PHONY : tests/yaml_test3.cc.i
+
+tests/yaml_test3.s: tests/yaml_test3.cc.s
+
+.PHONY : tests/yaml_test3.s
+
+# target to generate assembly for a file
+tests/yaml_test3.cc.s:
+	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/tests/yaml_test3.cc.s
+.PHONY : tests/yaml_test3.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... strftime.exe"
-	@echo "... edit_cache"
+	@echo "... yaml_test3.exe"
 	@echo "... tests/strftime_test.o"
 	@echo "... tests/strftime_test.i"
 	@echo "... tests/strftime_test.s"
+	@echo "... tests/yaml_test3.o"
+	@echo "... tests/yaml_test3.i"
+	@echo "... tests/yaml_test3.s"
 .PHONY : help
 
 
