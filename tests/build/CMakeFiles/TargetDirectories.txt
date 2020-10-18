@@ -1,4 +1,12 @@
-/home/working/tests_c-c-/tests/build/CMakeFiles/edit_cache.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/rebuild_cache.dir
-/home/working/tests_c-c-/tests/build/CMakeFiles/strftime.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/edit_cache.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/connect_mysql.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/yaml_test3.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/template_test1.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/strftime.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/string_test1.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/functional_test.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/lambda_test.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/boot_test.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/map_test.exe.dir

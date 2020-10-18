@@ -59,17 +59,6 @@ CMAKE_BINARY_DIR = /home/working/tests_c-c-/tests/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -80,6 +69,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -114,17 +114,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named strftime.exe
+# Target rules for targets named connect_mysql.exe
 
 # Build rule for target.
-strftime.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 strftime.exe
-.PHONY : strftime.exe
+connect_mysql.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 connect_mysql.exe
+.PHONY : connect_mysql.exe
 
 # fast build rule for target.
-strftime.exe/fast:
-	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/build
-.PHONY : strftime.exe/fast
+connect_mysql.exe/fast:
+	$(MAKE) -f CMakeFiles/connect_mysql.exe.dir/build.make CMakeFiles/connect_mysql.exe.dir/build
+.PHONY : connect_mysql.exe/fast
+
+#=============================================================================
+# Target rules for targets named test2.exe
+
+# Build rule for target.
+test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test2.exe
+.PHONY : test2.exe
+
+# fast build rule for target.
+test2.exe/fast:
+	$(MAKE) -f CMakeFiles/test2.exe.dir/build.make CMakeFiles/test2.exe.dir/build
+.PHONY : test2.exe/fast
 
 #=============================================================================
 # Target rules for targets named yaml_test3.exe
@@ -138,6 +151,232 @@ yaml_test3.exe: cmake_check_build_system
 yaml_test3.exe/fast:
 	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/build
 .PHONY : yaml_test3.exe/fast
+
+#=============================================================================
+# Target rules for targets named template_test1.exe
+
+# Build rule for target.
+template_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 template_test1.exe
+.PHONY : template_test1.exe
+
+# fast build rule for target.
+template_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/template_test1.exe.dir/build.make CMakeFiles/template_test1.exe.dir/build
+.PHONY : template_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named strftime.exe
+
+# Build rule for target.
+strftime.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strftime.exe
+.PHONY : strftime.exe
+
+# fast build rule for target.
+strftime.exe/fast:
+	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/build
+.PHONY : strftime.exe/fast
+
+#=============================================================================
+# Target rules for targets named string_test1.exe
+
+# Build rule for target.
+string_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_test1.exe
+.PHONY : string_test1.exe
+
+# fast build rule for target.
+string_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/build
+.PHONY : string_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named functional_test.exe
+
+# Build rule for target.
+functional_test.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 functional_test.exe
+.PHONY : functional_test.exe
+
+# fast build rule for target.
+functional_test.exe/fast:
+	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/build
+.PHONY : functional_test.exe/fast
+
+#=============================================================================
+# Target rules for targets named lambda_test.exe
+
+# Build rule for target.
+lambda_test.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lambda_test.exe
+.PHONY : lambda_test.exe
+
+# fast build rule for target.
+lambda_test.exe/fast:
+	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/build
+.PHONY : lambda_test.exe/fast
+
+#=============================================================================
+# Target rules for targets named boot_test.exe
+
+# Build rule for target.
+boot_test.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boot_test.exe
+.PHONY : boot_test.exe
+
+# fast build rule for target.
+boot_test.exe/fast:
+	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/build
+.PHONY : boot_test.exe/fast
+
+#=============================================================================
+# Target rules for targets named map_test.exe
+
+# Build rule for target.
+map_test.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 map_test.exe
+.PHONY : map_test.exe
+
+# fast build rule for target.
+map_test.exe/fast:
+	$(MAKE) -f CMakeFiles/map_test.exe.dir/build.make CMakeFiles/map_test.exe.dir/build
+.PHONY : map_test.exe/fast
+
+mysql/connect_mysql.o: mysql/connect_mysql.cc.o
+
+.PHONY : mysql/connect_mysql.o
+
+# target to build an object file
+mysql/connect_mysql.cc.o:
+	$(MAKE) -f CMakeFiles/connect_mysql.exe.dir/build.make CMakeFiles/connect_mysql.exe.dir/mysql/connect_mysql.cc.o
+.PHONY : mysql/connect_mysql.cc.o
+
+mysql/connect_mysql.i: mysql/connect_mysql.cc.i
+
+.PHONY : mysql/connect_mysql.i
+
+# target to preprocess a source file
+mysql/connect_mysql.cc.i:
+	$(MAKE) -f CMakeFiles/connect_mysql.exe.dir/build.make CMakeFiles/connect_mysql.exe.dir/mysql/connect_mysql.cc.i
+.PHONY : mysql/connect_mysql.cc.i
+
+mysql/connect_mysql.s: mysql/connect_mysql.cc.s
+
+.PHONY : mysql/connect_mysql.s
+
+# target to generate assembly for a file
+mysql/connect_mysql.cc.s:
+	$(MAKE) -f CMakeFiles/connect_mysql.exe.dir/build.make CMakeFiles/connect_mysql.exe.dir/mysql/connect_mysql.cc.s
+.PHONY : mysql/connect_mysql.cc.s
+
+tests/boot_test.o: tests/boot_test.cc.o
+
+.PHONY : tests/boot_test.o
+
+# target to build an object file
+tests/boot_test.cc.o:
+	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/tests/boot_test.cc.o
+.PHONY : tests/boot_test.cc.o
+
+tests/boot_test.i: tests/boot_test.cc.i
+
+.PHONY : tests/boot_test.i
+
+# target to preprocess a source file
+tests/boot_test.cc.i:
+	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/tests/boot_test.cc.i
+.PHONY : tests/boot_test.cc.i
+
+tests/boot_test.s: tests/boot_test.cc.s
+
+.PHONY : tests/boot_test.s
+
+# target to generate assembly for a file
+tests/boot_test.cc.s:
+	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/tests/boot_test.cc.s
+.PHONY : tests/boot_test.cc.s
+
+tests/functional_test.o: tests/functional_test.cc.o
+
+.PHONY : tests/functional_test.o
+
+# target to build an object file
+tests/functional_test.cc.o:
+	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/tests/functional_test.cc.o
+.PHONY : tests/functional_test.cc.o
+
+tests/functional_test.i: tests/functional_test.cc.i
+
+.PHONY : tests/functional_test.i
+
+# target to preprocess a source file
+tests/functional_test.cc.i:
+	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/tests/functional_test.cc.i
+.PHONY : tests/functional_test.cc.i
+
+tests/functional_test.s: tests/functional_test.cc.s
+
+.PHONY : tests/functional_test.s
+
+# target to generate assembly for a file
+tests/functional_test.cc.s:
+	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/tests/functional_test.cc.s
+.PHONY : tests/functional_test.cc.s
+
+tests/lambda_test.o: tests/lambda_test.cc.o
+
+.PHONY : tests/lambda_test.o
+
+# target to build an object file
+tests/lambda_test.cc.o:
+	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/tests/lambda_test.cc.o
+.PHONY : tests/lambda_test.cc.o
+
+tests/lambda_test.i: tests/lambda_test.cc.i
+
+.PHONY : tests/lambda_test.i
+
+# target to preprocess a source file
+tests/lambda_test.cc.i:
+	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/tests/lambda_test.cc.i
+.PHONY : tests/lambda_test.cc.i
+
+tests/lambda_test.s: tests/lambda_test.cc.s
+
+.PHONY : tests/lambda_test.s
+
+# target to generate assembly for a file
+tests/lambda_test.cc.s:
+	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/tests/lambda_test.cc.s
+.PHONY : tests/lambda_test.cc.s
+
+tests/map_test.o: tests/map_test.cc.o
+
+.PHONY : tests/map_test.o
+
+# target to build an object file
+tests/map_test.cc.o:
+	$(MAKE) -f CMakeFiles/map_test.exe.dir/build.make CMakeFiles/map_test.exe.dir/tests/map_test.cc.o
+.PHONY : tests/map_test.cc.o
+
+tests/map_test.i: tests/map_test.cc.i
+
+.PHONY : tests/map_test.i
+
+# target to preprocess a source file
+tests/map_test.cc.i:
+	$(MAKE) -f CMakeFiles/map_test.exe.dir/build.make CMakeFiles/map_test.exe.dir/tests/map_test.cc.i
+.PHONY : tests/map_test.cc.i
+
+tests/map_test.s: tests/map_test.cc.s
+
+.PHONY : tests/map_test.s
+
+# target to generate assembly for a file
+tests/map_test.cc.s:
+	$(MAKE) -f CMakeFiles/map_test.exe.dir/build.make CMakeFiles/map_test.exe.dir/tests/map_test.cc.s
+.PHONY : tests/map_test.cc.s
 
 tests/strftime_test.o: tests/strftime_test.cc.o
 
@@ -165,6 +404,87 @@ tests/strftime_test.s: tests/strftime_test.cc.s
 tests/strftime_test.cc.s:
 	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/tests/strftime_test.cc.s
 .PHONY : tests/strftime_test.cc.s
+
+tests/string_test1.o: tests/string_test1.cc.o
+
+.PHONY : tests/string_test1.o
+
+# target to build an object file
+tests/string_test1.cc.o:
+	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/tests/string_test1.cc.o
+.PHONY : tests/string_test1.cc.o
+
+tests/string_test1.i: tests/string_test1.cc.i
+
+.PHONY : tests/string_test1.i
+
+# target to preprocess a source file
+tests/string_test1.cc.i:
+	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/tests/string_test1.cc.i
+.PHONY : tests/string_test1.cc.i
+
+tests/string_test1.s: tests/string_test1.cc.s
+
+.PHONY : tests/string_test1.s
+
+# target to generate assembly for a file
+tests/string_test1.cc.s:
+	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/tests/string_test1.cc.s
+.PHONY : tests/string_test1.cc.s
+
+tests/template_test1.o: tests/template_test1.cc.o
+
+.PHONY : tests/template_test1.o
+
+# target to build an object file
+tests/template_test1.cc.o:
+	$(MAKE) -f CMakeFiles/template_test1.exe.dir/build.make CMakeFiles/template_test1.exe.dir/tests/template_test1.cc.o
+.PHONY : tests/template_test1.cc.o
+
+tests/template_test1.i: tests/template_test1.cc.i
+
+.PHONY : tests/template_test1.i
+
+# target to preprocess a source file
+tests/template_test1.cc.i:
+	$(MAKE) -f CMakeFiles/template_test1.exe.dir/build.make CMakeFiles/template_test1.exe.dir/tests/template_test1.cc.i
+.PHONY : tests/template_test1.cc.i
+
+tests/template_test1.s: tests/template_test1.cc.s
+
+.PHONY : tests/template_test1.s
+
+# target to generate assembly for a file
+tests/template_test1.cc.s:
+	$(MAKE) -f CMakeFiles/template_test1.exe.dir/build.make CMakeFiles/template_test1.exe.dir/tests/template_test1.cc.s
+.PHONY : tests/template_test1.cc.s
+
+tests/test2.o: tests/test2.cc.o
+
+.PHONY : tests/test2.o
+
+# target to build an object file
+tests/test2.cc.o:
+	$(MAKE) -f CMakeFiles/test2.exe.dir/build.make CMakeFiles/test2.exe.dir/tests/test2.cc.o
+.PHONY : tests/test2.cc.o
+
+tests/test2.i: tests/test2.cc.i
+
+.PHONY : tests/test2.i
+
+# target to preprocess a source file
+tests/test2.cc.i:
+	$(MAKE) -f CMakeFiles/test2.exe.dir/build.make CMakeFiles/test2.exe.dir/tests/test2.cc.i
+.PHONY : tests/test2.cc.i
+
+tests/test2.s: tests/test2.cc.s
+
+.PHONY : tests/test2.s
+
+# target to generate assembly for a file
+tests/test2.cc.s:
+	$(MAKE) -f CMakeFiles/test2.exe.dir/build.make CMakeFiles/test2.exe.dir/tests/test2.cc.s
+.PHONY : tests/test2.cc.s
 
 tests/yaml_test3.o: tests/yaml_test3.cc.o
 
@@ -199,13 +519,45 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... strftime.exe"
+	@echo "... edit_cache"
+	@echo "... connect_mysql.exe"
+	@echo "... test2.exe"
 	@echo "... yaml_test3.exe"
+	@echo "... template_test1.exe"
+	@echo "... strftime.exe"
+	@echo "... string_test1.exe"
+	@echo "... functional_test.exe"
+	@echo "... lambda_test.exe"
+	@echo "... boot_test.exe"
+	@echo "... map_test.exe"
+	@echo "... mysql/connect_mysql.o"
+	@echo "... mysql/connect_mysql.i"
+	@echo "... mysql/connect_mysql.s"
+	@echo "... tests/boot_test.o"
+	@echo "... tests/boot_test.i"
+	@echo "... tests/boot_test.s"
+	@echo "... tests/functional_test.o"
+	@echo "... tests/functional_test.i"
+	@echo "... tests/functional_test.s"
+	@echo "... tests/lambda_test.o"
+	@echo "... tests/lambda_test.i"
+	@echo "... tests/lambda_test.s"
+	@echo "... tests/map_test.o"
+	@echo "... tests/map_test.i"
+	@echo "... tests/map_test.s"
 	@echo "... tests/strftime_test.o"
 	@echo "... tests/strftime_test.i"
 	@echo "... tests/strftime_test.s"
+	@echo "... tests/string_test1.o"
+	@echo "... tests/string_test1.i"
+	@echo "... tests/string_test1.s"
+	@echo "... tests/template_test1.o"
+	@echo "... tests/template_test1.i"
+	@echo "... tests/template_test1.s"
+	@echo "... tests/test2.o"
+	@echo "... tests/test2.i"
+	@echo "... tests/test2.s"
 	@echo "... tests/yaml_test3.o"
 	@echo "... tests/yaml_test3.i"
 	@echo "... tests/yaml_test3.s"
