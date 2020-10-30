@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/working/tests_c-c-/tests/tests/sscanf_test1.cc
+stdio.h
+-
+stddef.h
+-
+locale.h
+-
+

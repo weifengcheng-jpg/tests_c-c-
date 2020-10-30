@@ -21,7 +21,7 @@ int main() {
     }
 
    //查询数据
-   int ret = mysql_query(&mysql, "select * from class;");
+   int ret = mysql_query(&mysql, "select * from class1;");
    std::cout << "ret: " << ret;
 
    //获取结果集

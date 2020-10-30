@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/working/tests_c-c-/tests/tests/backtrace.cc
+iostream
+-
+execinfo.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations  -rdynamic CMakeFiles/test4.exe.dir/tests/test4.cc.o  -o bin/test4.exe  -L/usr/local/lib64  -L/usr/local/lib  -L/usr/lib64/mysql/libmysqlclient.so 
