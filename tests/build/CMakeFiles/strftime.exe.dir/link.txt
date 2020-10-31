@@ -1,1 +1,1 @@
-/usr/bin/c++   -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations  -rdynamic CMakeFiles/strftime.exe.dir/tests/strftime_test.cc.o  -o bin/strftime.exe 
+/usr/bin/c++   -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-builtin-macro-redefined -Wno-deprecated-declarations  -rdynamic CMakeFiles/strftime.exe.dir/tests/strftime_test.cc.o  -o bin/strftime.exe 

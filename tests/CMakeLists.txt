@@ -2,8 +2,12 @@ cmake_minimum_required(VERSION 2.8)
 project(test)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
-set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations")
-set(CMAKE_C_FLAGS "$ENV{CXXFLAGS} -rdynamic -O3 -fPIC -ggdb -std=c11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations")
+#set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations")
+#set(CMAKE_C_FLAGS "$ENV{CXXFLAGS} -rdynamic -O3 -fPIC -ggdb -std=c11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations")
+
+set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-builtin-macro-redefined -Wno-deprecated-declarations")
+set(CMAKE_C_FLAGS "$ENV{CXXFLAGS} -rdynamic -O3 -fPIC -ggdb -std=c11 -Wall -Wno-deprecated -Wno-builtin-macro-redefined -Wno-deprecated-declarations")
+
 
 #set(LIB_SRC sylar/log.cc)
 
@@ -91,20 +95,19 @@ add_executable(backtrace.exe ./tests/backtrace.cc )
 
 add_executable(backtrace_test2.exe ./tests/backtrace_test2.cc )
 
-add_executable(backtrace_test3.exe ./tests/backtrace_test3.cc )
+#add_executable(backtrace_test3.exe ./tests/backtrace_test3.cc )
 
+#add_executable(singleton.exe ./tests/singleton.cc )
 
+add_executable(singleton_test2.exe ./tests/singleton_test2.cc )
 
+#add_executable(singleton_test3.exe ./tests/singleton_test3.cc )
 
+add_executable(singleton_test4.exe ./tests/singleton_test4.cc )
 
+add_executable(va_list_test2.exe ./tests/va_list_test2.cc)
 
-
-
-
-
-
-
-
+add_executable(va_list_test4.exe ./tests/va_list_test4.cc )
 
 
 

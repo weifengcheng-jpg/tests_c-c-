@@ -114,6 +114,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named singleton_test2.exe
+
+# Build rule for target.
+singleton_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singleton_test2.exe
+.PHONY : singleton_test2.exe
+
+# fast build rule for target.
+singleton_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/singleton_test2.exe.dir/build.make CMakeFiles/singleton_test2.exe.dir/build
+.PHONY : singleton_test2.exe/fast
+
+#=============================================================================
 # Target rules for targets named backtrace.exe
 
 # Build rule for target.
@@ -190,19 +203,6 @@ array_test1.exe: cmake_check_build_system
 array_test1.exe/fast:
 	$(MAKE) -f CMakeFiles/array_test1.exe.dir/build.make CMakeFiles/array_test1.exe.dir/build
 .PHONY : array_test1.exe/fast
-
-#=============================================================================
-# Target rules for targets named backtrace_test3.exe
-
-# Build rule for target.
-backtrace_test3.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 backtrace_test3.exe
-.PHONY : backtrace_test3.exe
-
-# fast build rule for target.
-backtrace_test3.exe/fast:
-	$(MAKE) -f CMakeFiles/backtrace_test3.exe.dir/build.make CMakeFiles/backtrace_test3.exe.dir/build
-.PHONY : backtrace_test3.exe/fast
 
 #=============================================================================
 # Target rules for targets named vector_test3.exe
@@ -322,6 +322,19 @@ strftime.exe/fast:
 .PHONY : strftime.exe/fast
 
 #=============================================================================
+# Target rules for targets named va_list_test4.exe
+
+# Build rule for target.
+va_list_test4.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 va_list_test4.exe
+.PHONY : va_list_test4.exe
+
+# fast build rule for target.
+va_list_test4.exe/fast:
+	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/build
+.PHONY : va_list_test4.exe/fast
+
+#=============================================================================
 # Target rules for targets named template_test1.exe
 
 # Build rule for target.
@@ -335,6 +348,19 @@ template_test1.exe/fast:
 .PHONY : template_test1.exe/fast
 
 #=============================================================================
+# Target rules for targets named va_list_test2.exe
+
+# Build rule for target.
+va_list_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 va_list_test2.exe
+.PHONY : va_list_test2.exe
+
+# fast build rule for target.
+va_list_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/va_list_test2.exe.dir/build.make CMakeFiles/va_list_test2.exe.dir/build
+.PHONY : va_list_test2.exe/fast
+
+#=============================================================================
 # Target rules for targets named yaml_test3.exe
 
 # Build rule for target.
@@ -346,6 +372,19 @@ yaml_test3.exe: cmake_check_build_system
 yaml_test3.exe/fast:
 	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/build
 .PHONY : yaml_test3.exe/fast
+
+#=============================================================================
+# Target rules for targets named singleton_test4.exe
+
+# Build rule for target.
+singleton_test4.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singleton_test4.exe
+.PHONY : singleton_test4.exe
+
+# fast build rule for target.
+singleton_test4.exe/fast:
+	$(MAKE) -f CMakeFiles/singleton_test4.exe.dir/build.make CMakeFiles/singleton_test4.exe.dir/build
+.PHONY : singleton_test4.exe/fast
 
 #=============================================================================
 # Target rules for targets named backtrace_test2.exe
@@ -679,33 +718,6 @@ tests/backtrace_test2.cc.s:
 	$(MAKE) -f CMakeFiles/backtrace_test2.exe.dir/build.make CMakeFiles/backtrace_test2.exe.dir/tests/backtrace_test2.cc.s
 .PHONY : tests/backtrace_test2.cc.s
 
-tests/backtrace_test3.o: tests/backtrace_test3.cc.o
-
-.PHONY : tests/backtrace_test3.o
-
-# target to build an object file
-tests/backtrace_test3.cc.o:
-	$(MAKE) -f CMakeFiles/backtrace_test3.exe.dir/build.make CMakeFiles/backtrace_test3.exe.dir/tests/backtrace_test3.cc.o
-.PHONY : tests/backtrace_test3.cc.o
-
-tests/backtrace_test3.i: tests/backtrace_test3.cc.i
-
-.PHONY : tests/backtrace_test3.i
-
-# target to preprocess a source file
-tests/backtrace_test3.cc.i:
-	$(MAKE) -f CMakeFiles/backtrace_test3.exe.dir/build.make CMakeFiles/backtrace_test3.exe.dir/tests/backtrace_test3.cc.i
-.PHONY : tests/backtrace_test3.cc.i
-
-tests/backtrace_test3.s: tests/backtrace_test3.cc.s
-
-.PHONY : tests/backtrace_test3.s
-
-# target to generate assembly for a file
-tests/backtrace_test3.cc.s:
-	$(MAKE) -f CMakeFiles/backtrace_test3.exe.dir/build.make CMakeFiles/backtrace_test3.exe.dir/tests/backtrace_test3.cc.s
-.PHONY : tests/backtrace_test3.cc.s
-
 tests/boot_test.o: tests/boot_test.cc.o
 
 .PHONY : tests/boot_test.o
@@ -894,6 +906,60 @@ tests/set_test2.s: tests/set_test2.cc.s
 tests/set_test2.cc.s:
 	$(MAKE) -f CMakeFiles/set_test2.exe.dir/build.make CMakeFiles/set_test2.exe.dir/tests/set_test2.cc.s
 .PHONY : tests/set_test2.cc.s
+
+tests/singleton_test2.o: tests/singleton_test2.cc.o
+
+.PHONY : tests/singleton_test2.o
+
+# target to build an object file
+tests/singleton_test2.cc.o:
+	$(MAKE) -f CMakeFiles/singleton_test2.exe.dir/build.make CMakeFiles/singleton_test2.exe.dir/tests/singleton_test2.cc.o
+.PHONY : tests/singleton_test2.cc.o
+
+tests/singleton_test2.i: tests/singleton_test2.cc.i
+
+.PHONY : tests/singleton_test2.i
+
+# target to preprocess a source file
+tests/singleton_test2.cc.i:
+	$(MAKE) -f CMakeFiles/singleton_test2.exe.dir/build.make CMakeFiles/singleton_test2.exe.dir/tests/singleton_test2.cc.i
+.PHONY : tests/singleton_test2.cc.i
+
+tests/singleton_test2.s: tests/singleton_test2.cc.s
+
+.PHONY : tests/singleton_test2.s
+
+# target to generate assembly for a file
+tests/singleton_test2.cc.s:
+	$(MAKE) -f CMakeFiles/singleton_test2.exe.dir/build.make CMakeFiles/singleton_test2.exe.dir/tests/singleton_test2.cc.s
+.PHONY : tests/singleton_test2.cc.s
+
+tests/singleton_test4.o: tests/singleton_test4.cc.o
+
+.PHONY : tests/singleton_test4.o
+
+# target to build an object file
+tests/singleton_test4.cc.o:
+	$(MAKE) -f CMakeFiles/singleton_test4.exe.dir/build.make CMakeFiles/singleton_test4.exe.dir/tests/singleton_test4.cc.o
+.PHONY : tests/singleton_test4.cc.o
+
+tests/singleton_test4.i: tests/singleton_test4.cc.i
+
+.PHONY : tests/singleton_test4.i
+
+# target to preprocess a source file
+tests/singleton_test4.cc.i:
+	$(MAKE) -f CMakeFiles/singleton_test4.exe.dir/build.make CMakeFiles/singleton_test4.exe.dir/tests/singleton_test4.cc.i
+.PHONY : tests/singleton_test4.cc.i
+
+tests/singleton_test4.s: tests/singleton_test4.cc.s
+
+.PHONY : tests/singleton_test4.s
+
+# target to generate assembly for a file
+tests/singleton_test4.cc.s:
+	$(MAKE) -f CMakeFiles/singleton_test4.exe.dir/build.make CMakeFiles/singleton_test4.exe.dir/tests/singleton_test4.cc.s
+.PHONY : tests/singleton_test4.cc.s
 
 tests/sscanf_test1.o: tests/sscanf_test1.cc.o
 
@@ -1165,6 +1231,60 @@ tests/unordered_set.cc.s:
 	$(MAKE) -f CMakeFiles/unordered_set.exe.dir/build.make CMakeFiles/unordered_set.exe.dir/tests/unordered_set.cc.s
 .PHONY : tests/unordered_set.cc.s
 
+tests/va_list_test2.o: tests/va_list_test2.cc.o
+
+.PHONY : tests/va_list_test2.o
+
+# target to build an object file
+tests/va_list_test2.cc.o:
+	$(MAKE) -f CMakeFiles/va_list_test2.exe.dir/build.make CMakeFiles/va_list_test2.exe.dir/tests/va_list_test2.cc.o
+.PHONY : tests/va_list_test2.cc.o
+
+tests/va_list_test2.i: tests/va_list_test2.cc.i
+
+.PHONY : tests/va_list_test2.i
+
+# target to preprocess a source file
+tests/va_list_test2.cc.i:
+	$(MAKE) -f CMakeFiles/va_list_test2.exe.dir/build.make CMakeFiles/va_list_test2.exe.dir/tests/va_list_test2.cc.i
+.PHONY : tests/va_list_test2.cc.i
+
+tests/va_list_test2.s: tests/va_list_test2.cc.s
+
+.PHONY : tests/va_list_test2.s
+
+# target to generate assembly for a file
+tests/va_list_test2.cc.s:
+	$(MAKE) -f CMakeFiles/va_list_test2.exe.dir/build.make CMakeFiles/va_list_test2.exe.dir/tests/va_list_test2.cc.s
+.PHONY : tests/va_list_test2.cc.s
+
+tests/va_list_test4.o: tests/va_list_test4.cc.o
+
+.PHONY : tests/va_list_test4.o
+
+# target to build an object file
+tests/va_list_test4.cc.o:
+	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/tests/va_list_test4.cc.o
+.PHONY : tests/va_list_test4.cc.o
+
+tests/va_list_test4.i: tests/va_list_test4.cc.i
+
+.PHONY : tests/va_list_test4.i
+
+# target to preprocess a source file
+tests/va_list_test4.cc.i:
+	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/tests/va_list_test4.cc.i
+.PHONY : tests/va_list_test4.cc.i
+
+tests/va_list_test4.s: tests/va_list_test4.cc.s
+
+.PHONY : tests/va_list_test4.s
+
+# target to generate assembly for a file
+tests/va_list_test4.cc.s:
+	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/tests/va_list_test4.cc.s
+.PHONY : tests/va_list_test4.cc.s
+
 tests/vector_test1.o: tests/vector_test1.cc.o
 
 .PHONY : tests/vector_test1.o
@@ -1281,13 +1401,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... singleton_test2.exe"
 	@echo "... backtrace.exe"
 	@echo "... __builtin_expect.exe"
 	@echo "... set_test2.exe"
 	@echo "... transform_test1.exe"
 	@echo "... coutBytes_test1.exe"
 	@echo "... array_test1.exe"
-	@echo "... backtrace_test3.exe"
 	@echo "... vector_test3.exe"
 	@echo "... vector_test2.exe"
 	@echo "... map_test.exe"
@@ -1297,8 +1417,11 @@ help:
 	@echo "... map_test2.exe"
 	@echo "... string_test1.exe"
 	@echo "... strftime.exe"
+	@echo "... va_list_test4.exe"
 	@echo "... template_test1.exe"
+	@echo "... va_list_test2.exe"
 	@echo "... yaml_test3.exe"
+	@echo "... singleton_test4.exe"
 	@echo "... backtrace_test2.exe"
 	@echo "... assert.exe"
 	@echo "... test2.exe"
@@ -1331,9 +1454,6 @@ help:
 	@echo "... tests/backtrace_test2.o"
 	@echo "... tests/backtrace_test2.i"
 	@echo "... tests/backtrace_test2.s"
-	@echo "... tests/backtrace_test3.o"
-	@echo "... tests/backtrace_test3.i"
-	@echo "... tests/backtrace_test3.s"
 	@echo "... tests/boot_test.o"
 	@echo "... tests/boot_test.i"
 	@echo "... tests/boot_test.s"
@@ -1355,6 +1475,12 @@ help:
 	@echo "... tests/set_test2.o"
 	@echo "... tests/set_test2.i"
 	@echo "... tests/set_test2.s"
+	@echo "... tests/singleton_test2.o"
+	@echo "... tests/singleton_test2.i"
+	@echo "... tests/singleton_test2.s"
+	@echo "... tests/singleton_test4.o"
+	@echo "... tests/singleton_test4.i"
+	@echo "... tests/singleton_test4.s"
 	@echo "... tests/sscanf_test1.o"
 	@echo "... tests/sscanf_test1.i"
 	@echo "... tests/sscanf_test1.s"
@@ -1385,6 +1511,12 @@ help:
 	@echo "... tests/unordered_set.o"
 	@echo "... tests/unordered_set.i"
 	@echo "... tests/unordered_set.s"
+	@echo "... tests/va_list_test2.o"
+	@echo "... tests/va_list_test2.i"
+	@echo "... tests/va_list_test2.s"
+	@echo "... tests/va_list_test4.o"
+	@echo "... tests/va_list_test4.i"
+	@echo "... tests/va_list_test4.s"
 	@echo "... tests/vector_test1.o"
 	@echo "... tests/vector_test1.i"
 	@echo "... tests/vector_test1.s"

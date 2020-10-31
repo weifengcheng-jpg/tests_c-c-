@@ -1,12 +1,12 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/rebuild_cache.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/edit_cache.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/singleton_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/backtrace.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/__builtin_expect.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/set_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/transform_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/coutBytes_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/array_test1.exe.dir
-/home/working/tests_c-c-/tests/build/CMakeFiles/backtrace_test3.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/vector_test3.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/vector_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/map_test.exe.dir
@@ -16,8 +16,11 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/map_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/string_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/strftime.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/va_list_test4.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/template_test1.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/va_list_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/yaml_test3.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/singleton_test4.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/backtrace_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/assert.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/test2.exe.dir
