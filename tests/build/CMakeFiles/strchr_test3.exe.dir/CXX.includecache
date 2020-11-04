@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/working/tests_c-c-/tests/tests/strchr_test3.cc
+iostream
+-
+string.h
+-
+string
+-
+sys/stat.h
+-
+sys/types.h
+-
+unistd.h
+-
+

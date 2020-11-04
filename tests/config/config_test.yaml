@@ -1,0 +1,15 @@
+logs:
+    - name: root
+      level: info
+      appenders:
+          - type: FileLogAppender
+            file: "xxx.log"
+          - type: StdoutLogAppender
+    - name: system
+      level: error
+      appenders:
+          - type: FileLogAppender
+            file: "yyy.log"
+          - type: StdoutLogAppender
+
+

@@ -114,394 +114,121 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named singleton_test2.exe
+# Target rules for targets named logeventwrap.exe
 
 # Build rule for target.
-singleton_test2.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 singleton_test2.exe
-.PHONY : singleton_test2.exe
+logeventwrap.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 logeventwrap.exe
+.PHONY : logeventwrap.exe
 
 # fast build rule for target.
-singleton_test2.exe/fast:
-	$(MAKE) -f CMakeFiles/singleton_test2.exe.dir/build.make CMakeFiles/singleton_test2.exe.dir/build
-.PHONY : singleton_test2.exe/fast
+logeventwrap.exe/fast:
+	$(MAKE) -f CMakeFiles/logeventwrap.exe.dir/build.make CMakeFiles/logeventwrap.exe.dir/build
+.PHONY : logeventwrap.exe/fast
 
 #=============================================================================
-# Target rules for targets named backtrace.exe
+# Target rules for targets named util_test1.exe
 
 # Build rule for target.
-backtrace.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 backtrace.exe
-.PHONY : backtrace.exe
+util_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 util_test1.exe
+.PHONY : util_test1.exe
 
 # fast build rule for target.
-backtrace.exe/fast:
-	$(MAKE) -f CMakeFiles/backtrace.exe.dir/build.make CMakeFiles/backtrace.exe.dir/build
-.PHONY : backtrace.exe/fast
+util_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/util_test1.exe.dir/build.make CMakeFiles/util_test1.exe.dir/build
+.PHONY : util_test1.exe/fast
 
 #=============================================================================
-# Target rules for targets named __builtin_expect.exe
+# Target rules for targets named time_test1.exe
 
 # Build rule for target.
-__builtin_expect.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 __builtin_expect.exe
-.PHONY : __builtin_expect.exe
+time_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 time_test1.exe
+.PHONY : time_test1.exe
 
 # fast build rule for target.
-__builtin_expect.exe/fast:
-	$(MAKE) -f CMakeFiles/__builtin_expect.exe.dir/build.make CMakeFiles/__builtin_expect.exe.dir/build
-.PHONY : __builtin_expect.exe/fast
+time_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/time_test1.exe.dir/build.make CMakeFiles/time_test1.exe.dir/build
+.PHONY : time_test1.exe/fast
 
 #=============================================================================
-# Target rules for targets named set_test2.exe
+# Target rules for targets named mkdir_test1.exe
 
 # Build rule for target.
-set_test2.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 set_test2.exe
-.PHONY : set_test2.exe
+mkdir_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mkdir_test1.exe
+.PHONY : mkdir_test1.exe
 
 # fast build rule for target.
-set_test2.exe/fast:
-	$(MAKE) -f CMakeFiles/set_test2.exe.dir/build.make CMakeFiles/set_test2.exe.dir/build
-.PHONY : set_test2.exe/fast
+mkdir_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/mkdir_test1.exe.dir/build.make CMakeFiles/mkdir_test1.exe.dir/build
+.PHONY : mkdir_test1.exe/fast
 
 #=============================================================================
-# Target rules for targets named transform_test1.exe
+# Target rules for targets named strchr_test1.exe
 
 # Build rule for target.
-transform_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 transform_test1.exe
-.PHONY : transform_test1.exe
+strchr_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strchr_test1.exe
+.PHONY : strchr_test1.exe
 
 # fast build rule for target.
-transform_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/transform_test1.exe.dir/build.make CMakeFiles/transform_test1.exe.dir/build
-.PHONY : transform_test1.exe/fast
+strchr_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/strchr_test1.exe.dir/build.make CMakeFiles/strchr_test1.exe.dir/build
+.PHONY : strchr_test1.exe/fast
 
 #=============================================================================
-# Target rules for targets named coutBytes_test1.exe
+# Target rules for targets named readdir_test1.exe
 
 # Build rule for target.
-coutBytes_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 coutBytes_test1.exe
-.PHONY : coutBytes_test1.exe
+readdir_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 readdir_test1.exe
+.PHONY : readdir_test1.exe
 
 # fast build rule for target.
-coutBytes_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/coutBytes_test1.exe.dir/build.make CMakeFiles/coutBytes_test1.exe.dir/build
-.PHONY : coutBytes_test1.exe/fast
+readdir_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/readdir_test1.exe.dir/build.make CMakeFiles/readdir_test1.exe.dir/build
+.PHONY : readdir_test1.exe/fast
 
 #=============================================================================
-# Target rules for targets named array_test1.exe
+# Target rules for targets named ofstream_test1.exe
 
 # Build rule for target.
-array_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array_test1.exe
-.PHONY : array_test1.exe
+ofstream_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ofstream_test1.exe
+.PHONY : ofstream_test1.exe
 
 # fast build rule for target.
-array_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/array_test1.exe.dir/build.make CMakeFiles/array_test1.exe.dir/build
-.PHONY : array_test1.exe/fast
+ofstream_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/ofstream_test1.exe.dir/build.make CMakeFiles/ofstream_test1.exe.dir/build
+.PHONY : ofstream_test1.exe/fast
 
 #=============================================================================
-# Target rules for targets named vector_test3.exe
+# Target rules for targets named string_test2.exe
 
 # Build rule for target.
-vector_test3.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vector_test3.exe
-.PHONY : vector_test3.exe
+string_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_test2.exe
+.PHONY : string_test2.exe
 
 # fast build rule for target.
-vector_test3.exe/fast:
-	$(MAKE) -f CMakeFiles/vector_test3.exe.dir/build.make CMakeFiles/vector_test3.exe.dir/build
-.PHONY : vector_test3.exe/fast
+string_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/string_test2.exe.dir/build.make CMakeFiles/string_test2.exe.dir/build
+.PHONY : string_test2.exe/fast
 
 #=============================================================================
-# Target rules for targets named vector_test2.exe
+# Target rules for targets named string_substr1.exe
 
 # Build rule for target.
-vector_test2.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vector_test2.exe
-.PHONY : vector_test2.exe
+string_substr1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_substr1.exe
+.PHONY : string_substr1.exe
 
 # fast build rule for target.
-vector_test2.exe/fast:
-	$(MAKE) -f CMakeFiles/vector_test2.exe.dir/build.make CMakeFiles/vector_test2.exe.dir/build
-.PHONY : vector_test2.exe/fast
-
-#=============================================================================
-# Target rules for targets named map_test.exe
-
-# Build rule for target.
-map_test.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_test.exe
-.PHONY : map_test.exe
-
-# fast build rule for target.
-map_test.exe/fast:
-	$(MAKE) -f CMakeFiles/map_test.exe.dir/build.make CMakeFiles/map_test.exe.dir/build
-.PHONY : map_test.exe/fast
-
-#=============================================================================
-# Target rules for targets named boot_test.exe
-
-# Build rule for target.
-boot_test.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 boot_test.exe
-.PHONY : boot_test.exe
-
-# fast build rule for target.
-boot_test.exe/fast:
-	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/build
-.PHONY : boot_test.exe/fast
-
-#=============================================================================
-# Target rules for targets named lambda_test.exe
-
-# Build rule for target.
-lambda_test.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lambda_test.exe
-.PHONY : lambda_test.exe
-
-# fast build rule for target.
-lambda_test.exe/fast:
-	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/build
-.PHONY : lambda_test.exe/fast
-
-#=============================================================================
-# Target rules for targets named functional_test.exe
-
-# Build rule for target.
-functional_test.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 functional_test.exe
-.PHONY : functional_test.exe
-
-# fast build rule for target.
-functional_test.exe/fast:
-	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/build
-.PHONY : functional_test.exe/fast
-
-#=============================================================================
-# Target rules for targets named map_test2.exe
-
-# Build rule for target.
-map_test2.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_test2.exe
-.PHONY : map_test2.exe
-
-# fast build rule for target.
-map_test2.exe/fast:
-	$(MAKE) -f CMakeFiles/map_test2.exe.dir/build.make CMakeFiles/map_test2.exe.dir/build
-.PHONY : map_test2.exe/fast
-
-#=============================================================================
-# Target rules for targets named string_test1.exe
-
-# Build rule for target.
-string_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 string_test1.exe
-.PHONY : string_test1.exe
-
-# fast build rule for target.
-string_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/build
-.PHONY : string_test1.exe/fast
-
-#=============================================================================
-# Target rules for targets named strftime.exe
-
-# Build rule for target.
-strftime.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 strftime.exe
-.PHONY : strftime.exe
-
-# fast build rule for target.
-strftime.exe/fast:
-	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/build
-.PHONY : strftime.exe/fast
-
-#=============================================================================
-# Target rules for targets named va_list_test4.exe
-
-# Build rule for target.
-va_list_test4.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 va_list_test4.exe
-.PHONY : va_list_test4.exe
-
-# fast build rule for target.
-va_list_test4.exe/fast:
-	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/build
-.PHONY : va_list_test4.exe/fast
-
-#=============================================================================
-# Target rules for targets named template_test1.exe
-
-# Build rule for target.
-template_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 template_test1.exe
-.PHONY : template_test1.exe
-
-# fast build rule for target.
-template_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/template_test1.exe.dir/build.make CMakeFiles/template_test1.exe.dir/build
-.PHONY : template_test1.exe/fast
-
-#=============================================================================
-# Target rules for targets named va_list_test2.exe
-
-# Build rule for target.
-va_list_test2.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 va_list_test2.exe
-.PHONY : va_list_test2.exe
-
-# fast build rule for target.
-va_list_test2.exe/fast:
-	$(MAKE) -f CMakeFiles/va_list_test2.exe.dir/build.make CMakeFiles/va_list_test2.exe.dir/build
-.PHONY : va_list_test2.exe/fast
-
-#=============================================================================
-# Target rules for targets named yaml_test3.exe
-
-# Build rule for target.
-yaml_test3.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 yaml_test3.exe
-.PHONY : yaml_test3.exe
-
-# fast build rule for target.
-yaml_test3.exe/fast:
-	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/build
-.PHONY : yaml_test3.exe/fast
-
-#=============================================================================
-# Target rules for targets named singleton_test4.exe
-
-# Build rule for target.
-singleton_test4.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 singleton_test4.exe
-.PHONY : singleton_test4.exe
-
-# fast build rule for target.
-singleton_test4.exe/fast:
-	$(MAKE) -f CMakeFiles/singleton_test4.exe.dir/build.make CMakeFiles/singleton_test4.exe.dir/build
-.PHONY : singleton_test4.exe/fast
-
-#=============================================================================
-# Target rules for targets named backtrace_test2.exe
-
-# Build rule for target.
-backtrace_test2.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 backtrace_test2.exe
-.PHONY : backtrace_test2.exe
-
-# fast build rule for target.
-backtrace_test2.exe/fast:
-	$(MAKE) -f CMakeFiles/backtrace_test2.exe.dir/build.make CMakeFiles/backtrace_test2.exe.dir/build
-.PHONY : backtrace_test2.exe/fast
-
-#=============================================================================
-# Target rules for targets named assert.exe
-
-# Build rule for target.
-assert.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assert.exe
-.PHONY : assert.exe
-
-# fast build rule for target.
-assert.exe/fast:
-	$(MAKE) -f CMakeFiles/assert.exe.dir/build.make CMakeFiles/assert.exe.dir/build
-.PHONY : assert.exe/fast
-
-#=============================================================================
-# Target rules for targets named test2.exe
-
-# Build rule for target.
-test2.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test2.exe
-.PHONY : test2.exe
-
-# fast build rule for target.
-test2.exe/fast:
-	$(MAKE) -f CMakeFiles/test2.exe.dir/build.make CMakeFiles/test2.exe.dir/build
-.PHONY : test2.exe/fast
-
-#=============================================================================
-# Target rules for targets named connect_mysql.exe
-
-# Build rule for target.
-connect_mysql.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 connect_mysql.exe
-.PHONY : connect_mysql.exe
-
-# fast build rule for target.
-connect_mysql.exe/fast:
-	$(MAKE) -f CMakeFiles/connect_mysql.exe.dir/build.make CMakeFiles/connect_mysql.exe.dir/build
-.PHONY : connect_mysql.exe/fast
-
-#=============================================================================
-# Target rules for targets named test4.exe
-
-# Build rule for target.
-test4.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test4.exe
-.PHONY : test4.exe
-
-# fast build rule for target.
-test4.exe/fast:
-	$(MAKE) -f CMakeFiles/test4.exe.dir/build.make CMakeFiles/test4.exe.dir/build
-.PHONY : test4.exe/fast
-
-#=============================================================================
-# Target rules for targets named sscanf_test1.exe
-
-# Build rule for target.
-sscanf_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sscanf_test1.exe
-.PHONY : sscanf_test1.exe
-
-# fast build rule for target.
-sscanf_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/sscanf_test1.exe.dir/build.make CMakeFiles/sscanf_test1.exe.dir/build
-.PHONY : sscanf_test1.exe/fast
-
-#=============================================================================
-# Target rules for targets named typeid_test1.exe
-
-# Build rule for target.
-typeid_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 typeid_test1.exe
-.PHONY : typeid_test1.exe
-
-# fast build rule for target.
-typeid_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/typeid_test1.exe.dir/build.make CMakeFiles/typeid_test1.exe.dir/build
-.PHONY : typeid_test1.exe/fast
-
-#=============================================================================
-# Target rules for targets named BinarySearch_test1.exe
-
-# Build rule for target.
-BinarySearch_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BinarySearch_test1.exe
-.PHONY : BinarySearch_test1.exe
-
-# fast build rule for target.
-BinarySearch_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/BinarySearch_test1.exe.dir/build.make CMakeFiles/BinarySearch_test1.exe.dir/build
-.PHONY : BinarySearch_test1.exe/fast
-
-#=============================================================================
-# Target rules for targets named typename_test1.exe
-
-# Build rule for target.
-typename_test1.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 typename_test1.exe
-.PHONY : typename_test1.exe
-
-# fast build rule for target.
-typename_test1.exe/fast:
-	$(MAKE) -f CMakeFiles/typename_test1.exe.dir/build.make CMakeFiles/typename_test1.exe.dir/build
-.PHONY : typename_test1.exe/fast
+string_substr1.exe/fast:
+	$(MAKE) -f CMakeFiles/string_substr1.exe.dir/build.make CMakeFiles/string_substr1.exe.dir/build
+.PHONY : string_substr1.exe/fast
 
 #=============================================================================
 # Target rules for targets named unordered_set.exe
@@ -517,6 +244,175 @@ unordered_set.exe/fast:
 .PHONY : unordered_set.exe/fast
 
 #=============================================================================
+# Target rules for targets named yamltojson_test1.exe
+
+# Build rule for target.
+yamltojson_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yamltojson_test1.exe
+.PHONY : yamltojson_test1.exe
+
+# fast build rule for target.
+yamltojson_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/yamltojson_test1.exe.dir/build.make CMakeFiles/yamltojson_test1.exe.dir/build
+.PHONY : yamltojson_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named BinarySearch_test1.exe
+
+# Build rule for target.
+BinarySearch_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinarySearch_test1.exe
+.PHONY : BinarySearch_test1.exe
+
+# fast build rule for target.
+BinarySearch_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/BinarySearch_test1.exe.dir/build.make CMakeFiles/BinarySearch_test1.exe.dir/build
+.PHONY : BinarySearch_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named typeid_test1.exe
+
+# Build rule for target.
+typeid_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 typeid_test1.exe
+.PHONY : typeid_test1.exe
+
+# fast build rule for target.
+typeid_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/typeid_test1.exe.dir/build.make CMakeFiles/typeid_test1.exe.dir/build
+.PHONY : typeid_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named strchr_test3.exe
+
+# Build rule for target.
+strchr_test3.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strchr_test3.exe
+.PHONY : strchr_test3.exe
+
+# fast build rule for target.
+strchr_test3.exe/fast:
+	$(MAKE) -f CMakeFiles/strchr_test3.exe.dir/build.make CMakeFiles/strchr_test3.exe.dir/build
+.PHONY : strchr_test3.exe/fast
+
+#=============================================================================
+# Target rules for targets named vector_test4.exe
+
+# Build rule for target.
+vector_test4.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vector_test4.exe
+.PHONY : vector_test4.exe
+
+# fast build rule for target.
+vector_test4.exe/fast:
+	$(MAKE) -f CMakeFiles/vector_test4.exe.dir/build.make CMakeFiles/vector_test4.exe.dir/build
+.PHONY : vector_test4.exe/fast
+
+#=============================================================================
+# Target rules for targets named sscanf_test1.exe
+
+# Build rule for target.
+sscanf_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sscanf_test1.exe
+.PHONY : sscanf_test1.exe
+
+# fast build rule for target.
+sscanf_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/sscanf_test1.exe.dir/build.make CMakeFiles/sscanf_test1.exe.dir/build
+.PHONY : sscanf_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named test4.exe
+
+# Build rule for target.
+test4.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test4.exe
+.PHONY : test4.exe
+
+# fast build rule for target.
+test4.exe/fast:
+	$(MAKE) -f CMakeFiles/test4.exe.dir/build.make CMakeFiles/test4.exe.dir/build
+.PHONY : test4.exe/fast
+
+#=============================================================================
+# Target rules for targets named connect_mysql.exe
+
+# Build rule for target.
+connect_mysql.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 connect_mysql.exe
+.PHONY : connect_mysql.exe
+
+# fast build rule for target.
+connect_mysql.exe/fast:
+	$(MAKE) -f CMakeFiles/connect_mysql.exe.dir/build.make CMakeFiles/connect_mysql.exe.dir/build
+.PHONY : connect_mysql.exe/fast
+
+#=============================================================================
+# Target rules for targets named test2.exe
+
+# Build rule for target.
+test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test2.exe
+.PHONY : test2.exe
+
+# fast build rule for target.
+test2.exe/fast:
+	$(MAKE) -f CMakeFiles/test2.exe.dir/build.make CMakeFiles/test2.exe.dir/build
+.PHONY : test2.exe/fast
+
+#=============================================================================
+# Target rules for targets named typename_test1.exe
+
+# Build rule for target.
+typename_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 typename_test1.exe
+.PHONY : typename_test1.exe
+
+# fast build rule for target.
+typename_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/typename_test1.exe.dir/build.make CMakeFiles/typename_test1.exe.dir/build
+.PHONY : typename_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named singleton_test4.exe
+
+# Build rule for target.
+singleton_test4.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singleton_test4.exe
+.PHONY : singleton_test4.exe
+
+# fast build rule for target.
+singleton_test4.exe/fast:
+	$(MAKE) -f CMakeFiles/singleton_test4.exe.dir/build.make CMakeFiles/singleton_test4.exe.dir/build
+.PHONY : singleton_test4.exe/fast
+
+#=============================================================================
+# Target rules for targets named yaml_test3.exe
+
+# Build rule for target.
+yaml_test3.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yaml_test3.exe
+.PHONY : yaml_test3.exe
+
+# fast build rule for target.
+yaml_test3.exe/fast:
+	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/build
+.PHONY : yaml_test3.exe/fast
+
+#=============================================================================
+# Target rules for targets named va_list_test2.exe
+
+# Build rule for target.
+va_list_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 va_list_test2.exe
+.PHONY : va_list_test2.exe
+
+# fast build rule for target.
+va_list_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/va_list_test2.exe.dir/build.make CMakeFiles/va_list_test2.exe.dir/build
+.PHONY : va_list_test2.exe/fast
+
+#=============================================================================
 # Target rules for targets named vector_test1.exe
 
 # Build rule for target.
@@ -528,6 +424,344 @@ vector_test1.exe: cmake_check_build_system
 vector_test1.exe/fast:
 	$(MAKE) -f CMakeFiles/vector_test1.exe.dir/build.make CMakeFiles/vector_test1.exe.dir/build
 .PHONY : vector_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named va_list_test5.exe
+
+# Build rule for target.
+va_list_test5.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 va_list_test5.exe
+.PHONY : va_list_test5.exe
+
+# fast build rule for target.
+va_list_test5.exe/fast:
+	$(MAKE) -f CMakeFiles/va_list_test5.exe.dir/build.make CMakeFiles/va_list_test5.exe.dir/build
+.PHONY : va_list_test5.exe/fast
+
+#=============================================================================
+# Target rules for targets named template_test1.exe
+
+# Build rule for target.
+template_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 template_test1.exe
+.PHONY : template_test1.exe
+
+# fast build rule for target.
+template_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/template_test1.exe.dir/build.make CMakeFiles/template_test1.exe.dir/build
+.PHONY : template_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named strftime.exe
+
+# Build rule for target.
+strftime.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strftime.exe
+.PHONY : strftime.exe
+
+# fast build rule for target.
+strftime.exe/fast:
+	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/build
+.PHONY : strftime.exe/fast
+
+#=============================================================================
+# Target rules for targets named strchr_test4.exe
+
+# Build rule for target.
+strchr_test4.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strchr_test4.exe
+.PHONY : strchr_test4.exe
+
+# fast build rule for target.
+strchr_test4.exe/fast:
+	$(MAKE) -f CMakeFiles/strchr_test4.exe.dir/build.make CMakeFiles/strchr_test4.exe.dir/build
+.PHONY : strchr_test4.exe/fast
+
+#=============================================================================
+# Target rules for targets named string_test1.exe
+
+# Build rule for target.
+string_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_test1.exe
+.PHONY : string_test1.exe
+
+# fast build rule for target.
+string_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/build
+.PHONY : string_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named map_test2.exe
+
+# Build rule for target.
+map_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 map_test2.exe
+.PHONY : map_test2.exe
+
+# fast build rule for target.
+map_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/map_test2.exe.dir/build.make CMakeFiles/map_test2.exe.dir/build
+.PHONY : map_test2.exe/fast
+
+#=============================================================================
+# Target rules for targets named functional_test.exe
+
+# Build rule for target.
+functional_test.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 functional_test.exe
+.PHONY : functional_test.exe
+
+# fast build rule for target.
+functional_test.exe/fast:
+	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/build
+.PHONY : functional_test.exe/fast
+
+#=============================================================================
+# Target rules for targets named lambda_test.exe
+
+# Build rule for target.
+lambda_test.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lambda_test.exe
+.PHONY : lambda_test.exe
+
+# fast build rule for target.
+lambda_test.exe/fast:
+	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/build
+.PHONY : lambda_test.exe/fast
+
+#=============================================================================
+# Target rules for targets named boot_test.exe
+
+# Build rule for target.
+boot_test.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boot_test.exe
+.PHONY : boot_test.exe
+
+# fast build rule for target.
+boot_test.exe/fast:
+	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/build
+.PHONY : boot_test.exe/fast
+
+#=============================================================================
+# Target rules for targets named log_test3.exe
+
+# Build rule for target.
+log_test3.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 log_test3.exe
+.PHONY : log_test3.exe
+
+# fast build rule for target.
+log_test3.exe/fast:
+	$(MAKE) -f CMakeFiles/log_test3.exe.dir/build.make CMakeFiles/log_test3.exe.dir/build
+.PHONY : log_test3.exe/fast
+
+#=============================================================================
+# Target rules for targets named assert.exe
+
+# Build rule for target.
+assert.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assert.exe
+.PHONY : assert.exe
+
+# fast build rule for target.
+assert.exe/fast:
+	$(MAKE) -f CMakeFiles/assert.exe.dir/build.make CMakeFiles/assert.exe.dir/build
+.PHONY : assert.exe/fast
+
+#=============================================================================
+# Target rules for targets named map_test.exe
+
+# Build rule for target.
+map_test.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 map_test.exe
+.PHONY : map_test.exe
+
+# fast build rule for target.
+map_test.exe/fast:
+	$(MAKE) -f CMakeFiles/map_test.exe.dir/build.make CMakeFiles/map_test.exe.dir/build
+.PHONY : map_test.exe/fast
+
+#=============================================================================
+# Target rules for targets named while_test1.exe
+
+# Build rule for target.
+while_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 while_test1.exe
+.PHONY : while_test1.exe
+
+# fast build rule for target.
+while_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/while_test1.exe.dir/build.make CMakeFiles/while_test1.exe.dir/build
+.PHONY : while_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named vector_test3.exe
+
+# Build rule for target.
+vector_test3.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vector_test3.exe
+.PHONY : vector_test3.exe
+
+# fast build rule for target.
+vector_test3.exe/fast:
+	$(MAKE) -f CMakeFiles/vector_test3.exe.dir/build.make CMakeFiles/vector_test3.exe.dir/build
+.PHONY : vector_test3.exe/fast
+
+#=============================================================================
+# Target rules for targets named array_test1.exe
+
+# Build rule for target.
+array_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array_test1.exe
+.PHONY : array_test1.exe
+
+# fast build rule for target.
+array_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/array_test1.exe.dir/build.make CMakeFiles/array_test1.exe.dir/build
+.PHONY : array_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named vector_test2.exe
+
+# Build rule for target.
+vector_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vector_test2.exe
+.PHONY : vector_test2.exe
+
+# fast build rule for target.
+vector_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/vector_test2.exe.dir/build.make CMakeFiles/vector_test2.exe.dir/build
+.PHONY : vector_test2.exe/fast
+
+#=============================================================================
+# Target rules for targets named coutBytes_test1.exe
+
+# Build rule for target.
+coutBytes_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coutBytes_test1.exe
+.PHONY : coutBytes_test1.exe
+
+# fast build rule for target.
+coutBytes_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/coutBytes_test1.exe.dir/build.make CMakeFiles/coutBytes_test1.exe.dir/build
+.PHONY : coutBytes_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named transform_test1.exe
+
+# Build rule for target.
+transform_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 transform_test1.exe
+.PHONY : transform_test1.exe
+
+# fast build rule for target.
+transform_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/transform_test1.exe.dir/build.make CMakeFiles/transform_test1.exe.dir/build
+.PHONY : transform_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named set_test2.exe
+
+# Build rule for target.
+set_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 set_test2.exe
+.PHONY : set_test2.exe
+
+# fast build rule for target.
+set_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/set_test2.exe.dir/build.make CMakeFiles/set_test2.exe.dir/build
+.PHONY : set_test2.exe/fast
+
+#=============================================================================
+# Target rules for targets named __builtin_expect.exe
+
+# Build rule for target.
+__builtin_expect.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 __builtin_expect.exe
+.PHONY : __builtin_expect.exe
+
+# fast build rule for target.
+__builtin_expect.exe/fast:
+	$(MAKE) -f CMakeFiles/__builtin_expect.exe.dir/build.make CMakeFiles/__builtin_expect.exe.dir/build
+.PHONY : __builtin_expect.exe/fast
+
+#=============================================================================
+# Target rules for targets named backtrace_test2.exe
+
+# Build rule for target.
+backtrace_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 backtrace_test2.exe
+.PHONY : backtrace_test2.exe
+
+# fast build rule for target.
+backtrace_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/backtrace_test2.exe.dir/build.make CMakeFiles/backtrace_test2.exe.dir/build
+.PHONY : backtrace_test2.exe/fast
+
+#=============================================================================
+# Target rules for targets named backtrace.exe
+
+# Build rule for target.
+backtrace.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 backtrace.exe
+.PHONY : backtrace.exe
+
+# fast build rule for target.
+backtrace.exe/fast:
+	$(MAKE) -f CMakeFiles/backtrace.exe.dir/build.make CMakeFiles/backtrace.exe.dir/build
+.PHONY : backtrace.exe/fast
+
+#=============================================================================
+# Target rules for targets named va_list_test6.exe
+
+# Build rule for target.
+va_list_test6.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 va_list_test6.exe
+.PHONY : va_list_test6.exe
+
+# fast build rule for target.
+va_list_test6.exe/fast:
+	$(MAKE) -f CMakeFiles/va_list_test6.exe.dir/build.make CMakeFiles/va_list_test6.exe.dir/build
+.PHONY : va_list_test6.exe/fast
+
+#=============================================================================
+# Target rules for targets named va_list_test4.exe
+
+# Build rule for target.
+va_list_test4.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 va_list_test4.exe
+.PHONY : va_list_test4.exe
+
+# fast build rule for target.
+va_list_test4.exe/fast:
+	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/build
+.PHONY : va_list_test4.exe/fast
+
+#=============================================================================
+# Target rules for targets named singleton_test2.exe
+
+# Build rule for target.
+singleton_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singleton_test2.exe
+.PHONY : singleton_test2.exe
+
+# fast build rule for target.
+singleton_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/singleton_test2.exe.dir/build.make CMakeFiles/singleton_test2.exe.dir/build
+.PHONY : singleton_test2.exe/fast
+
+#=============================================================================
+# Target rules for targets named string_substr_test1.exe
+
+# Build rule for target.
+string_substr_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_substr_test1.exe
+.PHONY : string_substr_test1.exe
+
+# fast build rule for target.
+string_substr_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/string_substr_test1.exe.dir/build.make CMakeFiles/string_substr_test1.exe.dir/build
+.PHONY : string_substr_test1.exe/fast
 
 mysql/connect_mysql.o: mysql/connect_mysql.cc.o
 
@@ -826,6 +1060,60 @@ tests/lambda_test.cc.s:
 	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/tests/lambda_test.cc.s
 .PHONY : tests/lambda_test.cc.s
 
+tests/log_test3.o: tests/log_test3.cc.o
+
+.PHONY : tests/log_test3.o
+
+# target to build an object file
+tests/log_test3.cc.o:
+	$(MAKE) -f CMakeFiles/log_test3.exe.dir/build.make CMakeFiles/log_test3.exe.dir/tests/log_test3.cc.o
+.PHONY : tests/log_test3.cc.o
+
+tests/log_test3.i: tests/log_test3.cc.i
+
+.PHONY : tests/log_test3.i
+
+# target to preprocess a source file
+tests/log_test3.cc.i:
+	$(MAKE) -f CMakeFiles/log_test3.exe.dir/build.make CMakeFiles/log_test3.exe.dir/tests/log_test3.cc.i
+.PHONY : tests/log_test3.cc.i
+
+tests/log_test3.s: tests/log_test3.cc.s
+
+.PHONY : tests/log_test3.s
+
+# target to generate assembly for a file
+tests/log_test3.cc.s:
+	$(MAKE) -f CMakeFiles/log_test3.exe.dir/build.make CMakeFiles/log_test3.exe.dir/tests/log_test3.cc.s
+.PHONY : tests/log_test3.cc.s
+
+tests/logeventwrap.o: tests/logeventwrap.cc.o
+
+.PHONY : tests/logeventwrap.o
+
+# target to build an object file
+tests/logeventwrap.cc.o:
+	$(MAKE) -f CMakeFiles/logeventwrap.exe.dir/build.make CMakeFiles/logeventwrap.exe.dir/tests/logeventwrap.cc.o
+.PHONY : tests/logeventwrap.cc.o
+
+tests/logeventwrap.i: tests/logeventwrap.cc.i
+
+.PHONY : tests/logeventwrap.i
+
+# target to preprocess a source file
+tests/logeventwrap.cc.i:
+	$(MAKE) -f CMakeFiles/logeventwrap.exe.dir/build.make CMakeFiles/logeventwrap.exe.dir/tests/logeventwrap.cc.i
+.PHONY : tests/logeventwrap.cc.i
+
+tests/logeventwrap.s: tests/logeventwrap.cc.s
+
+.PHONY : tests/logeventwrap.s
+
+# target to generate assembly for a file
+tests/logeventwrap.cc.s:
+	$(MAKE) -f CMakeFiles/logeventwrap.exe.dir/build.make CMakeFiles/logeventwrap.exe.dir/tests/logeventwrap.cc.s
+.PHONY : tests/logeventwrap.cc.s
+
 tests/map_test.o: tests/map_test.cc.o
 
 .PHONY : tests/map_test.o
@@ -879,6 +1167,87 @@ tests/map_test2.s: tests/map_test2.cc.s
 tests/map_test2.cc.s:
 	$(MAKE) -f CMakeFiles/map_test2.exe.dir/build.make CMakeFiles/map_test2.exe.dir/tests/map_test2.cc.s
 .PHONY : tests/map_test2.cc.s
+
+tests/mkdir_test1.o: tests/mkdir_test1.cc.o
+
+.PHONY : tests/mkdir_test1.o
+
+# target to build an object file
+tests/mkdir_test1.cc.o:
+	$(MAKE) -f CMakeFiles/mkdir_test1.exe.dir/build.make CMakeFiles/mkdir_test1.exe.dir/tests/mkdir_test1.cc.o
+.PHONY : tests/mkdir_test1.cc.o
+
+tests/mkdir_test1.i: tests/mkdir_test1.cc.i
+
+.PHONY : tests/mkdir_test1.i
+
+# target to preprocess a source file
+tests/mkdir_test1.cc.i:
+	$(MAKE) -f CMakeFiles/mkdir_test1.exe.dir/build.make CMakeFiles/mkdir_test1.exe.dir/tests/mkdir_test1.cc.i
+.PHONY : tests/mkdir_test1.cc.i
+
+tests/mkdir_test1.s: tests/mkdir_test1.cc.s
+
+.PHONY : tests/mkdir_test1.s
+
+# target to generate assembly for a file
+tests/mkdir_test1.cc.s:
+	$(MAKE) -f CMakeFiles/mkdir_test1.exe.dir/build.make CMakeFiles/mkdir_test1.exe.dir/tests/mkdir_test1.cc.s
+.PHONY : tests/mkdir_test1.cc.s
+
+tests/ofstream_test1.o: tests/ofstream_test1.cc.o
+
+.PHONY : tests/ofstream_test1.o
+
+# target to build an object file
+tests/ofstream_test1.cc.o:
+	$(MAKE) -f CMakeFiles/ofstream_test1.exe.dir/build.make CMakeFiles/ofstream_test1.exe.dir/tests/ofstream_test1.cc.o
+.PHONY : tests/ofstream_test1.cc.o
+
+tests/ofstream_test1.i: tests/ofstream_test1.cc.i
+
+.PHONY : tests/ofstream_test1.i
+
+# target to preprocess a source file
+tests/ofstream_test1.cc.i:
+	$(MAKE) -f CMakeFiles/ofstream_test1.exe.dir/build.make CMakeFiles/ofstream_test1.exe.dir/tests/ofstream_test1.cc.i
+.PHONY : tests/ofstream_test1.cc.i
+
+tests/ofstream_test1.s: tests/ofstream_test1.cc.s
+
+.PHONY : tests/ofstream_test1.s
+
+# target to generate assembly for a file
+tests/ofstream_test1.cc.s:
+	$(MAKE) -f CMakeFiles/ofstream_test1.exe.dir/build.make CMakeFiles/ofstream_test1.exe.dir/tests/ofstream_test1.cc.s
+.PHONY : tests/ofstream_test1.cc.s
+
+tests/readdir_test1.o: tests/readdir_test1.cc.o
+
+.PHONY : tests/readdir_test1.o
+
+# target to build an object file
+tests/readdir_test1.cc.o:
+	$(MAKE) -f CMakeFiles/readdir_test1.exe.dir/build.make CMakeFiles/readdir_test1.exe.dir/tests/readdir_test1.cc.o
+.PHONY : tests/readdir_test1.cc.o
+
+tests/readdir_test1.i: tests/readdir_test1.cc.i
+
+.PHONY : tests/readdir_test1.i
+
+# target to preprocess a source file
+tests/readdir_test1.cc.i:
+	$(MAKE) -f CMakeFiles/readdir_test1.exe.dir/build.make CMakeFiles/readdir_test1.exe.dir/tests/readdir_test1.cc.i
+.PHONY : tests/readdir_test1.cc.i
+
+tests/readdir_test1.s: tests/readdir_test1.cc.s
+
+.PHONY : tests/readdir_test1.s
+
+# target to generate assembly for a file
+tests/readdir_test1.cc.s:
+	$(MAKE) -f CMakeFiles/readdir_test1.exe.dir/build.make CMakeFiles/readdir_test1.exe.dir/tests/readdir_test1.cc.s
+.PHONY : tests/readdir_test1.cc.s
 
 tests/set_test2.o: tests/set_test2.cc.o
 
@@ -988,6 +1357,87 @@ tests/sscanf_test1.cc.s:
 	$(MAKE) -f CMakeFiles/sscanf_test1.exe.dir/build.make CMakeFiles/sscanf_test1.exe.dir/tests/sscanf_test1.cc.s
 .PHONY : tests/sscanf_test1.cc.s
 
+tests/strchr_test1.o: tests/strchr_test1.cc.o
+
+.PHONY : tests/strchr_test1.o
+
+# target to build an object file
+tests/strchr_test1.cc.o:
+	$(MAKE) -f CMakeFiles/strchr_test1.exe.dir/build.make CMakeFiles/strchr_test1.exe.dir/tests/strchr_test1.cc.o
+.PHONY : tests/strchr_test1.cc.o
+
+tests/strchr_test1.i: tests/strchr_test1.cc.i
+
+.PHONY : tests/strchr_test1.i
+
+# target to preprocess a source file
+tests/strchr_test1.cc.i:
+	$(MAKE) -f CMakeFiles/strchr_test1.exe.dir/build.make CMakeFiles/strchr_test1.exe.dir/tests/strchr_test1.cc.i
+.PHONY : tests/strchr_test1.cc.i
+
+tests/strchr_test1.s: tests/strchr_test1.cc.s
+
+.PHONY : tests/strchr_test1.s
+
+# target to generate assembly for a file
+tests/strchr_test1.cc.s:
+	$(MAKE) -f CMakeFiles/strchr_test1.exe.dir/build.make CMakeFiles/strchr_test1.exe.dir/tests/strchr_test1.cc.s
+.PHONY : tests/strchr_test1.cc.s
+
+tests/strchr_test3.o: tests/strchr_test3.cc.o
+
+.PHONY : tests/strchr_test3.o
+
+# target to build an object file
+tests/strchr_test3.cc.o:
+	$(MAKE) -f CMakeFiles/strchr_test3.exe.dir/build.make CMakeFiles/strchr_test3.exe.dir/tests/strchr_test3.cc.o
+.PHONY : tests/strchr_test3.cc.o
+
+tests/strchr_test3.i: tests/strchr_test3.cc.i
+
+.PHONY : tests/strchr_test3.i
+
+# target to preprocess a source file
+tests/strchr_test3.cc.i:
+	$(MAKE) -f CMakeFiles/strchr_test3.exe.dir/build.make CMakeFiles/strchr_test3.exe.dir/tests/strchr_test3.cc.i
+.PHONY : tests/strchr_test3.cc.i
+
+tests/strchr_test3.s: tests/strchr_test3.cc.s
+
+.PHONY : tests/strchr_test3.s
+
+# target to generate assembly for a file
+tests/strchr_test3.cc.s:
+	$(MAKE) -f CMakeFiles/strchr_test3.exe.dir/build.make CMakeFiles/strchr_test3.exe.dir/tests/strchr_test3.cc.s
+.PHONY : tests/strchr_test3.cc.s
+
+tests/strchr_test4.o: tests/strchr_test4.cc.o
+
+.PHONY : tests/strchr_test4.o
+
+# target to build an object file
+tests/strchr_test4.cc.o:
+	$(MAKE) -f CMakeFiles/strchr_test4.exe.dir/build.make CMakeFiles/strchr_test4.exe.dir/tests/strchr_test4.cc.o
+.PHONY : tests/strchr_test4.cc.o
+
+tests/strchr_test4.i: tests/strchr_test4.cc.i
+
+.PHONY : tests/strchr_test4.i
+
+# target to preprocess a source file
+tests/strchr_test4.cc.i:
+	$(MAKE) -f CMakeFiles/strchr_test4.exe.dir/build.make CMakeFiles/strchr_test4.exe.dir/tests/strchr_test4.cc.i
+.PHONY : tests/strchr_test4.cc.i
+
+tests/strchr_test4.s: tests/strchr_test4.cc.s
+
+.PHONY : tests/strchr_test4.s
+
+# target to generate assembly for a file
+tests/strchr_test4.cc.s:
+	$(MAKE) -f CMakeFiles/strchr_test4.exe.dir/build.make CMakeFiles/strchr_test4.exe.dir/tests/strchr_test4.cc.s
+.PHONY : tests/strchr_test4.cc.s
+
 tests/strftime_test.o: tests/strftime_test.cc.o
 
 .PHONY : tests/strftime_test.o
@@ -1015,6 +1465,60 @@ tests/strftime_test.cc.s:
 	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/tests/strftime_test.cc.s
 .PHONY : tests/strftime_test.cc.s
 
+tests/string_substr1.o: tests/string_substr1.cc.o
+
+.PHONY : tests/string_substr1.o
+
+# target to build an object file
+tests/string_substr1.cc.o:
+	$(MAKE) -f CMakeFiles/string_substr1.exe.dir/build.make CMakeFiles/string_substr1.exe.dir/tests/string_substr1.cc.o
+.PHONY : tests/string_substr1.cc.o
+
+tests/string_substr1.i: tests/string_substr1.cc.i
+
+.PHONY : tests/string_substr1.i
+
+# target to preprocess a source file
+tests/string_substr1.cc.i:
+	$(MAKE) -f CMakeFiles/string_substr1.exe.dir/build.make CMakeFiles/string_substr1.exe.dir/tests/string_substr1.cc.i
+.PHONY : tests/string_substr1.cc.i
+
+tests/string_substr1.s: tests/string_substr1.cc.s
+
+.PHONY : tests/string_substr1.s
+
+# target to generate assembly for a file
+tests/string_substr1.cc.s:
+	$(MAKE) -f CMakeFiles/string_substr1.exe.dir/build.make CMakeFiles/string_substr1.exe.dir/tests/string_substr1.cc.s
+.PHONY : tests/string_substr1.cc.s
+
+tests/string_substr_test1.o: tests/string_substr_test1.cc.o
+
+.PHONY : tests/string_substr_test1.o
+
+# target to build an object file
+tests/string_substr_test1.cc.o:
+	$(MAKE) -f CMakeFiles/string_substr_test1.exe.dir/build.make CMakeFiles/string_substr_test1.exe.dir/tests/string_substr_test1.cc.o
+.PHONY : tests/string_substr_test1.cc.o
+
+tests/string_substr_test1.i: tests/string_substr_test1.cc.i
+
+.PHONY : tests/string_substr_test1.i
+
+# target to preprocess a source file
+tests/string_substr_test1.cc.i:
+	$(MAKE) -f CMakeFiles/string_substr_test1.exe.dir/build.make CMakeFiles/string_substr_test1.exe.dir/tests/string_substr_test1.cc.i
+.PHONY : tests/string_substr_test1.cc.i
+
+tests/string_substr_test1.s: tests/string_substr_test1.cc.s
+
+.PHONY : tests/string_substr_test1.s
+
+# target to generate assembly for a file
+tests/string_substr_test1.cc.s:
+	$(MAKE) -f CMakeFiles/string_substr_test1.exe.dir/build.make CMakeFiles/string_substr_test1.exe.dir/tests/string_substr_test1.cc.s
+.PHONY : tests/string_substr_test1.cc.s
+
 tests/string_test1.o: tests/string_test1.cc.o
 
 .PHONY : tests/string_test1.o
@@ -1041,6 +1545,33 @@ tests/string_test1.s: tests/string_test1.cc.s
 tests/string_test1.cc.s:
 	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/tests/string_test1.cc.s
 .PHONY : tests/string_test1.cc.s
+
+tests/string_test2.o: tests/string_test2.cc.o
+
+.PHONY : tests/string_test2.o
+
+# target to build an object file
+tests/string_test2.cc.o:
+	$(MAKE) -f CMakeFiles/string_test2.exe.dir/build.make CMakeFiles/string_test2.exe.dir/tests/string_test2.cc.o
+.PHONY : tests/string_test2.cc.o
+
+tests/string_test2.i: tests/string_test2.cc.i
+
+.PHONY : tests/string_test2.i
+
+# target to preprocess a source file
+tests/string_test2.cc.i:
+	$(MAKE) -f CMakeFiles/string_test2.exe.dir/build.make CMakeFiles/string_test2.exe.dir/tests/string_test2.cc.i
+.PHONY : tests/string_test2.cc.i
+
+tests/string_test2.s: tests/string_test2.cc.s
+
+.PHONY : tests/string_test2.s
+
+# target to generate assembly for a file
+tests/string_test2.cc.s:
+	$(MAKE) -f CMakeFiles/string_test2.exe.dir/build.make CMakeFiles/string_test2.exe.dir/tests/string_test2.cc.s
+.PHONY : tests/string_test2.cc.s
 
 tests/template_test1.o: tests/template_test1.cc.o
 
@@ -1122,6 +1653,33 @@ tests/test4.s: tests/test4.cc.s
 tests/test4.cc.s:
 	$(MAKE) -f CMakeFiles/test4.exe.dir/build.make CMakeFiles/test4.exe.dir/tests/test4.cc.s
 .PHONY : tests/test4.cc.s
+
+tests/time_test1.o: tests/time_test1.cc.o
+
+.PHONY : tests/time_test1.o
+
+# target to build an object file
+tests/time_test1.cc.o:
+	$(MAKE) -f CMakeFiles/time_test1.exe.dir/build.make CMakeFiles/time_test1.exe.dir/tests/time_test1.cc.o
+.PHONY : tests/time_test1.cc.o
+
+tests/time_test1.i: tests/time_test1.cc.i
+
+.PHONY : tests/time_test1.i
+
+# target to preprocess a source file
+tests/time_test1.cc.i:
+	$(MAKE) -f CMakeFiles/time_test1.exe.dir/build.make CMakeFiles/time_test1.exe.dir/tests/time_test1.cc.i
+.PHONY : tests/time_test1.cc.i
+
+tests/time_test1.s: tests/time_test1.cc.s
+
+.PHONY : tests/time_test1.s
+
+# target to generate assembly for a file
+tests/time_test1.cc.s:
+	$(MAKE) -f CMakeFiles/time_test1.exe.dir/build.make CMakeFiles/time_test1.exe.dir/tests/time_test1.cc.s
+.PHONY : tests/time_test1.cc.s
 
 tests/transfrom_test1.o: tests/transfrom_test1.cc.o
 
@@ -1231,6 +1789,33 @@ tests/unordered_set.cc.s:
 	$(MAKE) -f CMakeFiles/unordered_set.exe.dir/build.make CMakeFiles/unordered_set.exe.dir/tests/unordered_set.cc.s
 .PHONY : tests/unordered_set.cc.s
 
+tests/util_test1.o: tests/util_test1.cc.o
+
+.PHONY : tests/util_test1.o
+
+# target to build an object file
+tests/util_test1.cc.o:
+	$(MAKE) -f CMakeFiles/util_test1.exe.dir/build.make CMakeFiles/util_test1.exe.dir/tests/util_test1.cc.o
+.PHONY : tests/util_test1.cc.o
+
+tests/util_test1.i: tests/util_test1.cc.i
+
+.PHONY : tests/util_test1.i
+
+# target to preprocess a source file
+tests/util_test1.cc.i:
+	$(MAKE) -f CMakeFiles/util_test1.exe.dir/build.make CMakeFiles/util_test1.exe.dir/tests/util_test1.cc.i
+.PHONY : tests/util_test1.cc.i
+
+tests/util_test1.s: tests/util_test1.cc.s
+
+.PHONY : tests/util_test1.s
+
+# target to generate assembly for a file
+tests/util_test1.cc.s:
+	$(MAKE) -f CMakeFiles/util_test1.exe.dir/build.make CMakeFiles/util_test1.exe.dir/tests/util_test1.cc.s
+.PHONY : tests/util_test1.cc.s
+
 tests/va_list_test2.o: tests/va_list_test2.cc.o
 
 .PHONY : tests/va_list_test2.o
@@ -1284,6 +1869,60 @@ tests/va_list_test4.s: tests/va_list_test4.cc.s
 tests/va_list_test4.cc.s:
 	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/tests/va_list_test4.cc.s
 .PHONY : tests/va_list_test4.cc.s
+
+tests/va_list_test5.o: tests/va_list_test5.cc.o
+
+.PHONY : tests/va_list_test5.o
+
+# target to build an object file
+tests/va_list_test5.cc.o:
+	$(MAKE) -f CMakeFiles/va_list_test5.exe.dir/build.make CMakeFiles/va_list_test5.exe.dir/tests/va_list_test5.cc.o
+.PHONY : tests/va_list_test5.cc.o
+
+tests/va_list_test5.i: tests/va_list_test5.cc.i
+
+.PHONY : tests/va_list_test5.i
+
+# target to preprocess a source file
+tests/va_list_test5.cc.i:
+	$(MAKE) -f CMakeFiles/va_list_test5.exe.dir/build.make CMakeFiles/va_list_test5.exe.dir/tests/va_list_test5.cc.i
+.PHONY : tests/va_list_test5.cc.i
+
+tests/va_list_test5.s: tests/va_list_test5.cc.s
+
+.PHONY : tests/va_list_test5.s
+
+# target to generate assembly for a file
+tests/va_list_test5.cc.s:
+	$(MAKE) -f CMakeFiles/va_list_test5.exe.dir/build.make CMakeFiles/va_list_test5.exe.dir/tests/va_list_test5.cc.s
+.PHONY : tests/va_list_test5.cc.s
+
+tests/va_list_test6.o: tests/va_list_test6.cc.o
+
+.PHONY : tests/va_list_test6.o
+
+# target to build an object file
+tests/va_list_test6.cc.o:
+	$(MAKE) -f CMakeFiles/va_list_test6.exe.dir/build.make CMakeFiles/va_list_test6.exe.dir/tests/va_list_test6.cc.o
+.PHONY : tests/va_list_test6.cc.o
+
+tests/va_list_test6.i: tests/va_list_test6.cc.i
+
+.PHONY : tests/va_list_test6.i
+
+# target to preprocess a source file
+tests/va_list_test6.cc.i:
+	$(MAKE) -f CMakeFiles/va_list_test6.exe.dir/build.make CMakeFiles/va_list_test6.exe.dir/tests/va_list_test6.cc.i
+.PHONY : tests/va_list_test6.cc.i
+
+tests/va_list_test6.s: tests/va_list_test6.cc.s
+
+.PHONY : tests/va_list_test6.s
+
+# target to generate assembly for a file
+tests/va_list_test6.cc.s:
+	$(MAKE) -f CMakeFiles/va_list_test6.exe.dir/build.make CMakeFiles/va_list_test6.exe.dir/tests/va_list_test6.cc.s
+.PHONY : tests/va_list_test6.cc.s
 
 tests/vector_test1.o: tests/vector_test1.cc.o
 
@@ -1366,6 +2005,60 @@ tests/vector_test3.cc.s:
 	$(MAKE) -f CMakeFiles/vector_test3.exe.dir/build.make CMakeFiles/vector_test3.exe.dir/tests/vector_test3.cc.s
 .PHONY : tests/vector_test3.cc.s
 
+tests/vector_test4.o: tests/vector_test4.cc.o
+
+.PHONY : tests/vector_test4.o
+
+# target to build an object file
+tests/vector_test4.cc.o:
+	$(MAKE) -f CMakeFiles/vector_test4.exe.dir/build.make CMakeFiles/vector_test4.exe.dir/tests/vector_test4.cc.o
+.PHONY : tests/vector_test4.cc.o
+
+tests/vector_test4.i: tests/vector_test4.cc.i
+
+.PHONY : tests/vector_test4.i
+
+# target to preprocess a source file
+tests/vector_test4.cc.i:
+	$(MAKE) -f CMakeFiles/vector_test4.exe.dir/build.make CMakeFiles/vector_test4.exe.dir/tests/vector_test4.cc.i
+.PHONY : tests/vector_test4.cc.i
+
+tests/vector_test4.s: tests/vector_test4.cc.s
+
+.PHONY : tests/vector_test4.s
+
+# target to generate assembly for a file
+tests/vector_test4.cc.s:
+	$(MAKE) -f CMakeFiles/vector_test4.exe.dir/build.make CMakeFiles/vector_test4.exe.dir/tests/vector_test4.cc.s
+.PHONY : tests/vector_test4.cc.s
+
+tests/while_test1.o: tests/while_test1.cc.o
+
+.PHONY : tests/while_test1.o
+
+# target to build an object file
+tests/while_test1.cc.o:
+	$(MAKE) -f CMakeFiles/while_test1.exe.dir/build.make CMakeFiles/while_test1.exe.dir/tests/while_test1.cc.o
+.PHONY : tests/while_test1.cc.o
+
+tests/while_test1.i: tests/while_test1.cc.i
+
+.PHONY : tests/while_test1.i
+
+# target to preprocess a source file
+tests/while_test1.cc.i:
+	$(MAKE) -f CMakeFiles/while_test1.exe.dir/build.make CMakeFiles/while_test1.exe.dir/tests/while_test1.cc.i
+.PHONY : tests/while_test1.cc.i
+
+tests/while_test1.s: tests/while_test1.cc.s
+
+.PHONY : tests/while_test1.s
+
+# target to generate assembly for a file
+tests/while_test1.cc.s:
+	$(MAKE) -f CMakeFiles/while_test1.exe.dir/build.make CMakeFiles/while_test1.exe.dir/tests/while_test1.cc.s
+.PHONY : tests/while_test1.cc.s
+
 tests/yaml_test3.o: tests/yaml_test3.cc.o
 
 .PHONY : tests/yaml_test3.o
@@ -1393,6 +2086,33 @@ tests/yaml_test3.cc.s:
 	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/tests/yaml_test3.cc.s
 .PHONY : tests/yaml_test3.cc.s
 
+tests/yamltojson_test1.o: tests/yamltojson_test1.cc.o
+
+.PHONY : tests/yamltojson_test1.o
+
+# target to build an object file
+tests/yamltojson_test1.cc.o:
+	$(MAKE) -f CMakeFiles/yamltojson_test1.exe.dir/build.make CMakeFiles/yamltojson_test1.exe.dir/tests/yamltojson_test1.cc.o
+.PHONY : tests/yamltojson_test1.cc.o
+
+tests/yamltojson_test1.i: tests/yamltojson_test1.cc.i
+
+.PHONY : tests/yamltojson_test1.i
+
+# target to preprocess a source file
+tests/yamltojson_test1.cc.i:
+	$(MAKE) -f CMakeFiles/yamltojson_test1.exe.dir/build.make CMakeFiles/yamltojson_test1.exe.dir/tests/yamltojson_test1.cc.i
+.PHONY : tests/yamltojson_test1.cc.i
+
+tests/yamltojson_test1.s: tests/yamltojson_test1.cc.s
+
+.PHONY : tests/yamltojson_test1.s
+
+# target to generate assembly for a file
+tests/yamltojson_test1.cc.s:
+	$(MAKE) -f CMakeFiles/yamltojson_test1.exe.dir/build.make CMakeFiles/yamltojson_test1.exe.dir/tests/yamltojson_test1.cc.s
+.PHONY : tests/yamltojson_test1.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1401,38 +2121,56 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... singleton_test2.exe"
-	@echo "... backtrace.exe"
-	@echo "... __builtin_expect.exe"
-	@echo "... set_test2.exe"
-	@echo "... transform_test1.exe"
-	@echo "... coutBytes_test1.exe"
-	@echo "... array_test1.exe"
-	@echo "... vector_test3.exe"
-	@echo "... vector_test2.exe"
-	@echo "... map_test.exe"
-	@echo "... boot_test.exe"
-	@echo "... lambda_test.exe"
-	@echo "... functional_test.exe"
-	@echo "... map_test2.exe"
-	@echo "... string_test1.exe"
-	@echo "... strftime.exe"
-	@echo "... va_list_test4.exe"
-	@echo "... template_test1.exe"
-	@echo "... va_list_test2.exe"
-	@echo "... yaml_test3.exe"
-	@echo "... singleton_test4.exe"
-	@echo "... backtrace_test2.exe"
-	@echo "... assert.exe"
-	@echo "... test2.exe"
-	@echo "... connect_mysql.exe"
-	@echo "... test4.exe"
-	@echo "... sscanf_test1.exe"
-	@echo "... typeid_test1.exe"
-	@echo "... BinarySearch_test1.exe"
-	@echo "... typename_test1.exe"
+	@echo "... logeventwrap.exe"
+	@echo "... util_test1.exe"
+	@echo "... time_test1.exe"
+	@echo "... mkdir_test1.exe"
+	@echo "... strchr_test1.exe"
+	@echo "... readdir_test1.exe"
+	@echo "... ofstream_test1.exe"
+	@echo "... string_test2.exe"
+	@echo "... string_substr1.exe"
 	@echo "... unordered_set.exe"
+	@echo "... yamltojson_test1.exe"
+	@echo "... BinarySearch_test1.exe"
+	@echo "... typeid_test1.exe"
+	@echo "... strchr_test3.exe"
+	@echo "... vector_test4.exe"
+	@echo "... sscanf_test1.exe"
+	@echo "... test4.exe"
+	@echo "... connect_mysql.exe"
+	@echo "... test2.exe"
+	@echo "... typename_test1.exe"
+	@echo "... singleton_test4.exe"
+	@echo "... yaml_test3.exe"
+	@echo "... va_list_test2.exe"
 	@echo "... vector_test1.exe"
+	@echo "... va_list_test5.exe"
+	@echo "... template_test1.exe"
+	@echo "... strftime.exe"
+	@echo "... strchr_test4.exe"
+	@echo "... string_test1.exe"
+	@echo "... map_test2.exe"
+	@echo "... functional_test.exe"
+	@echo "... lambda_test.exe"
+	@echo "... boot_test.exe"
+	@echo "... log_test3.exe"
+	@echo "... assert.exe"
+	@echo "... map_test.exe"
+	@echo "... while_test1.exe"
+	@echo "... vector_test3.exe"
+	@echo "... array_test1.exe"
+	@echo "... vector_test2.exe"
+	@echo "... coutBytes_test1.exe"
+	@echo "... transform_test1.exe"
+	@echo "... set_test2.exe"
+	@echo "... __builtin_expect.exe"
+	@echo "... backtrace_test2.exe"
+	@echo "... backtrace.exe"
+	@echo "... va_list_test6.exe"
+	@echo "... va_list_test4.exe"
+	@echo "... singleton_test2.exe"
+	@echo "... string_substr_test1.exe"
 	@echo "... mysql/connect_mysql.o"
 	@echo "... mysql/connect_mysql.i"
 	@echo "... mysql/connect_mysql.s"
@@ -1466,12 +2204,27 @@ help:
 	@echo "... tests/lambda_test.o"
 	@echo "... tests/lambda_test.i"
 	@echo "... tests/lambda_test.s"
+	@echo "... tests/log_test3.o"
+	@echo "... tests/log_test3.i"
+	@echo "... tests/log_test3.s"
+	@echo "... tests/logeventwrap.o"
+	@echo "... tests/logeventwrap.i"
+	@echo "... tests/logeventwrap.s"
 	@echo "... tests/map_test.o"
 	@echo "... tests/map_test.i"
 	@echo "... tests/map_test.s"
 	@echo "... tests/map_test2.o"
 	@echo "... tests/map_test2.i"
 	@echo "... tests/map_test2.s"
+	@echo "... tests/mkdir_test1.o"
+	@echo "... tests/mkdir_test1.i"
+	@echo "... tests/mkdir_test1.s"
+	@echo "... tests/ofstream_test1.o"
+	@echo "... tests/ofstream_test1.i"
+	@echo "... tests/ofstream_test1.s"
+	@echo "... tests/readdir_test1.o"
+	@echo "... tests/readdir_test1.i"
+	@echo "... tests/readdir_test1.s"
 	@echo "... tests/set_test2.o"
 	@echo "... tests/set_test2.i"
 	@echo "... tests/set_test2.s"
@@ -1484,12 +2237,30 @@ help:
 	@echo "... tests/sscanf_test1.o"
 	@echo "... tests/sscanf_test1.i"
 	@echo "... tests/sscanf_test1.s"
+	@echo "... tests/strchr_test1.o"
+	@echo "... tests/strchr_test1.i"
+	@echo "... tests/strchr_test1.s"
+	@echo "... tests/strchr_test3.o"
+	@echo "... tests/strchr_test3.i"
+	@echo "... tests/strchr_test3.s"
+	@echo "... tests/strchr_test4.o"
+	@echo "... tests/strchr_test4.i"
+	@echo "... tests/strchr_test4.s"
 	@echo "... tests/strftime_test.o"
 	@echo "... tests/strftime_test.i"
 	@echo "... tests/strftime_test.s"
+	@echo "... tests/string_substr1.o"
+	@echo "... tests/string_substr1.i"
+	@echo "... tests/string_substr1.s"
+	@echo "... tests/string_substr_test1.o"
+	@echo "... tests/string_substr_test1.i"
+	@echo "... tests/string_substr_test1.s"
 	@echo "... tests/string_test1.o"
 	@echo "... tests/string_test1.i"
 	@echo "... tests/string_test1.s"
+	@echo "... tests/string_test2.o"
+	@echo "... tests/string_test2.i"
+	@echo "... tests/string_test2.s"
 	@echo "... tests/template_test1.o"
 	@echo "... tests/template_test1.i"
 	@echo "... tests/template_test1.s"
@@ -1499,6 +2270,9 @@ help:
 	@echo "... tests/test4.o"
 	@echo "... tests/test4.i"
 	@echo "... tests/test4.s"
+	@echo "... tests/time_test1.o"
+	@echo "... tests/time_test1.i"
+	@echo "... tests/time_test1.s"
 	@echo "... tests/transfrom_test1.o"
 	@echo "... tests/transfrom_test1.i"
 	@echo "... tests/transfrom_test1.s"
@@ -1511,12 +2285,21 @@ help:
 	@echo "... tests/unordered_set.o"
 	@echo "... tests/unordered_set.i"
 	@echo "... tests/unordered_set.s"
+	@echo "... tests/util_test1.o"
+	@echo "... tests/util_test1.i"
+	@echo "... tests/util_test1.s"
 	@echo "... tests/va_list_test2.o"
 	@echo "... tests/va_list_test2.i"
 	@echo "... tests/va_list_test2.s"
 	@echo "... tests/va_list_test4.o"
 	@echo "... tests/va_list_test4.i"
 	@echo "... tests/va_list_test4.s"
+	@echo "... tests/va_list_test5.o"
+	@echo "... tests/va_list_test5.i"
+	@echo "... tests/va_list_test5.s"
+	@echo "... tests/va_list_test6.o"
+	@echo "... tests/va_list_test6.i"
+	@echo "... tests/va_list_test6.s"
 	@echo "... tests/vector_test1.o"
 	@echo "... tests/vector_test1.i"
 	@echo "... tests/vector_test1.s"
@@ -1526,9 +2309,18 @@ help:
 	@echo "... tests/vector_test3.o"
 	@echo "... tests/vector_test3.i"
 	@echo "... tests/vector_test3.s"
+	@echo "... tests/vector_test4.o"
+	@echo "... tests/vector_test4.i"
+	@echo "... tests/vector_test4.s"
+	@echo "... tests/while_test1.o"
+	@echo "... tests/while_test1.i"
+	@echo "... tests/while_test1.s"
 	@echo "... tests/yaml_test3.o"
 	@echo "... tests/yaml_test3.i"
 	@echo "... tests/yaml_test3.s"
+	@echo "... tests/yamltojson_test1.o"
+	@echo "... tests/yamltojson_test1.i"
+	@echo "... tests/yamltojson_test1.s"
 .PHONY : help
 
 
