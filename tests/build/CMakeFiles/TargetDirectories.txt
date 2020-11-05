@@ -1,5 +1,6 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/rebuild_cache.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/edit_cache.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/log_test4.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/logeventwrap.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/util_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/time_test1.exe.dir
@@ -17,6 +18,7 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/vector_test4.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/sscanf_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/test4.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/list_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/connect_mysql.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/typename_test1.exe.dir
@@ -26,10 +28,12 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/vector_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/va_list_test5.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/template_test1.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/json_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/strftime.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/strchr_test4.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/string_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/map_test2.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/toYamlString.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/functional_test.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/lambda_test.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/boot_test.exe.dir

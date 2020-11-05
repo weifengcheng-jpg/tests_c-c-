@@ -166,6 +166,27 @@ target_link_libraries(yamltojson_test1.exe -L/usr/local/lib64 -lyaml-cpp)
 #add_executable(yamltojson_test2.exe ./tests/yamltojson_test2.cc )
 #target_link_libraries(yamltojson_test2.exe -L/usr/local/lib64 -lyaml-cpp)
 
+add_executable(list_test1.exe ./tests/list_test1.cc)
+
+
+
+add_executable(json_test2.exe ./tests/json_test2.cc)
+target_link_libraries(json_test2.exe -L/usr/local/lib64 -ljsoncpp)
+
+add_executable(log_test4.exe ./tests/log_test4.cc)
+
+add_executable(toYamlString.exe ./tests/toYamlString.cc)
+target_link_libraries(toYamlString.exe -L/usr/local/lib64 -lyaml-cpp)
+
+
+
+
+
+
+
+
+
+
 
 
 
