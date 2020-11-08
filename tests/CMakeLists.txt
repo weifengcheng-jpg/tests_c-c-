@@ -173,10 +173,52 @@ add_executable(list_test1.exe ./tests/list_test1.cc)
 add_executable(json_test2.exe ./tests/json_test2.cc)
 target_link_libraries(json_test2.exe -L/usr/local/lib64 -ljsoncpp)
 
-add_executable(log_test4.exe ./tests/log_test4.cc)
+#add_executable(log_test4.exe ./tests/log_test4.cc)
 
 add_executable(toYamlString.exe ./tests/toYamlString.cc)
 target_link_libraries(toYamlString.exe -L/usr/local/lib64 -lyaml-cpp)
+
+#add_executable(vector_tuple_test1.cc ./tests/vector_tuple_test1)
+
+#add_executable(string_test3.exe ./tests/string_test3.cc)
+
+#add_executable(function_test1.exe ./tests/function_test1.cc)
+
+add_executable(hello_test1.exe ./tests/hello_test1.cc)
+
+#add_executable(map_test4.exe ./tests/map_test4.cc)
+
+add_executable(map_test5.exe ./tests/map_test5.cc)
+
+#add_executable(unordered_map_test1.exe ./tests/unordered_map_test1.cc)
+
+add_executable(lambda_test2.exe ./tests/lambda_test2.cc)
+
+#add_executable(map_function_test1.exe ./tests/map_function_test1.cc)
+
+add_executable(public_shared_ptr.exe ./tests/public_shared_ptr.cc)
+
+add_executable(shared_ptr_new1.exe ./tests/shared_ptr_new1.cc)
+
+add_executable(log1.exe ./tests/log1.cc)
+
+add_executable(log2.exe ./tests/log2.cc)
+
+#add_executable(function_1.exe ./tests/function_1.cc)
+
+add_executable(function_2.exe ./tests/function_2.cc)
+
+add_executable(function_3.exe ./tests/function_3.cc)
+
+add_executable(yaml_test5.exe ./tests/yaml_test5.cc)
+target_link_libraries(yaml_test5.exe -L/usr/local/lib64 -lyaml-cpp)
+
+add_executable(string_test4.exe ./tests/string_test4.cc)
+
+
+
+
+
 
 
 

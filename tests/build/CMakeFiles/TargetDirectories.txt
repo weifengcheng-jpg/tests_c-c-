@@ -1,6 +1,12 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/rebuild_cache.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/edit_cache.dir
-/home/working/tests_c-c-/tests/build/CMakeFiles/log_test4.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/string_test4.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/function_3.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/function_2.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/shared_ptr_new1.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/lambda_test2.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/map_test5.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/yaml_test5.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/logeventwrap.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/util_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/time_test1.exe.dir
@@ -18,6 +24,7 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/vector_test4.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/sscanf_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/test4.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/public_shared_ptr.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/list_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/connect_mysql.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/test2.exe.dir
@@ -36,7 +43,9 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/toYamlString.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/functional_test.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/lambda_test.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/hello_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/boot_test.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/log1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/log_test3.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/assert.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/map_test.exe.dir
@@ -46,6 +55,7 @@
 /home/working/tests_c-c-/tests/build/CMakeFiles/vector_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/coutBytes_test1.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/transform_test1.exe.dir
+/home/working/tests_c-c-/tests/build/CMakeFiles/log2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/set_test2.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/__builtin_expect.exe.dir
 /home/working/tests_c-c-/tests/build/CMakeFiles/backtrace_test2.exe.dir

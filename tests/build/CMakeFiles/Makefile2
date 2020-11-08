@@ -63,39 +63,261 @@ CMAKE_SOURCE_DIR = /home/working/tests_c-c-/tests
 CMAKE_BINARY_DIR = /home/working/tests_c-c-/tests/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/log_test4.exe.dir
+# Target rules for target CMakeFiles/string_test4.exe.dir
 
 # All Build rule for target.
-CMakeFiles/log_test4.exe.dir/all:
-	$(MAKE) -f CMakeFiles/log_test4.exe.dir/build.make CMakeFiles/log_test4.exe.dir/depend
-	$(MAKE) -f CMakeFiles/log_test4.exe.dir/build.make CMakeFiles/log_test4.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=26,27 "Built target log_test4.exe"
-.PHONY : CMakeFiles/log_test4.exe.dir/all
+CMakeFiles/string_test4.exe.dir/all:
+	$(MAKE) -f CMakeFiles/string_test4.exe.dir/build.make CMakeFiles/string_test4.exe.dir/depend
+	$(MAKE) -f CMakeFiles/string_test4.exe.dir/build.make CMakeFiles/string_test4.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=65 "Built target string_test4.exe"
+.PHONY : CMakeFiles/string_test4.exe.dir/all
 
 # Include target in all.
-all: CMakeFiles/log_test4.exe.dir/all
+all: CMakeFiles/string_test4.exe.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/log_test4.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/log_test4.exe.dir/all
+CMakeFiles/string_test4.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/string_test4.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/log_test4.exe.dir/rule
+.PHONY : CMakeFiles/string_test4.exe.dir/rule
 
 # Convenience name for target.
-log_test4.exe: CMakeFiles/log_test4.exe.dir/rule
+string_test4.exe: CMakeFiles/string_test4.exe.dir/rule
 
-.PHONY : log_test4.exe
-
-# clean rule for target.
-CMakeFiles/log_test4.exe.dir/clean:
-	$(MAKE) -f CMakeFiles/log_test4.exe.dir/build.make CMakeFiles/log_test4.exe.dir/clean
-.PHONY : CMakeFiles/log_test4.exe.dir/clean
+.PHONY : string_test4.exe
 
 # clean rule for target.
-clean: CMakeFiles/log_test4.exe.dir/clean
+CMakeFiles/string_test4.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/string_test4.exe.dir/build.make CMakeFiles/string_test4.exe.dir/clean
+.PHONY : CMakeFiles/string_test4.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/string_test4.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/function_3.exe.dir
+
+# All Build rule for target.
+CMakeFiles/function_3.exe.dir/all:
+	$(MAKE) -f CMakeFiles/function_3.exe.dir/build.make CMakeFiles/function_3.exe.dir/depend
+	$(MAKE) -f CMakeFiles/function_3.exe.dir/build.make CMakeFiles/function_3.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=16,17 "Built target function_3.exe"
+.PHONY : CMakeFiles/function_3.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/function_3.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/function_3.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/function_3.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/function_3.exe.dir/rule
+
+# Convenience name for target.
+function_3.exe: CMakeFiles/function_3.exe.dir/rule
+
+.PHONY : function_3.exe
+
+# clean rule for target.
+CMakeFiles/function_3.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/function_3.exe.dir/build.make CMakeFiles/function_3.exe.dir/clean
+.PHONY : CMakeFiles/function_3.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/function_3.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/function_2.exe.dir
+
+# All Build rule for target.
+CMakeFiles/function_2.exe.dir/all:
+	$(MAKE) -f CMakeFiles/function_2.exe.dir/build.make CMakeFiles/function_2.exe.dir/depend
+	$(MAKE) -f CMakeFiles/function_2.exe.dir/build.make CMakeFiles/function_2.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=15 "Built target function_2.exe"
+.PHONY : CMakeFiles/function_2.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/function_2.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/function_2.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/function_2.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/function_2.exe.dir/rule
+
+# Convenience name for target.
+function_2.exe: CMakeFiles/function_2.exe.dir/rule
+
+.PHONY : function_2.exe
+
+# clean rule for target.
+CMakeFiles/function_2.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/function_2.exe.dir/build.make CMakeFiles/function_2.exe.dir/clean
+.PHONY : CMakeFiles/function_2.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/function_2.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/shared_ptr_new1.exe.dir
+
+# All Build rule for target.
+CMakeFiles/shared_ptr_new1.exe.dir/all:
+	$(MAKE) -f CMakeFiles/shared_ptr_new1.exe.dir/build.make CMakeFiles/shared_ptr_new1.exe.dir/depend
+	$(MAKE) -f CMakeFiles/shared_ptr_new1.exe.dir/build.make CMakeFiles/shared_ptr_new1.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=46 "Built target shared_ptr_new1.exe"
+.PHONY : CMakeFiles/shared_ptr_new1.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/shared_ptr_new1.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/shared_ptr_new1.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shared_ptr_new1.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/shared_ptr_new1.exe.dir/rule
+
+# Convenience name for target.
+shared_ptr_new1.exe: CMakeFiles/shared_ptr_new1.exe.dir/rule
+
+.PHONY : shared_ptr_new1.exe
+
+# clean rule for target.
+CMakeFiles/shared_ptr_new1.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/shared_ptr_new1.exe.dir/build.make CMakeFiles/shared_ptr_new1.exe.dir/clean
+.PHONY : CMakeFiles/shared_ptr_new1.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/shared_ptr_new1.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lambda_test2.exe.dir
+
+# All Build rule for target.
+CMakeFiles/lambda_test2.exe.dir/all:
+	$(MAKE) -f CMakeFiles/lambda_test2.exe.dir/build.make CMakeFiles/lambda_test2.exe.dir/depend
+	$(MAKE) -f CMakeFiles/lambda_test2.exe.dir/build.make CMakeFiles/lambda_test2.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=24,25 "Built target lambda_test2.exe"
+.PHONY : CMakeFiles/lambda_test2.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/lambda_test2.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lambda_test2.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lambda_test2.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/lambda_test2.exe.dir/rule
+
+# Convenience name for target.
+lambda_test2.exe: CMakeFiles/lambda_test2.exe.dir/rule
+
+.PHONY : lambda_test2.exe
+
+# clean rule for target.
+CMakeFiles/lambda_test2.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/lambda_test2.exe.dir/build.make CMakeFiles/lambda_test2.exe.dir/clean
+.PHONY : CMakeFiles/lambda_test2.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/lambda_test2.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/map_test5.exe.dir
+
+# All Build rule for target.
+CMakeFiles/map_test5.exe.dir/all:
+	$(MAKE) -f CMakeFiles/map_test5.exe.dir/build.make CMakeFiles/map_test5.exe.dir/depend
+	$(MAKE) -f CMakeFiles/map_test5.exe.dir/build.make CMakeFiles/map_test5.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=36,37 "Built target map_test5.exe"
+.PHONY : CMakeFiles/map_test5.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/map_test5.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/map_test5.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/map_test5.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/map_test5.exe.dir/rule
+
+# Convenience name for target.
+map_test5.exe: CMakeFiles/map_test5.exe.dir/rule
+
+.PHONY : map_test5.exe
+
+# clean rule for target.
+CMakeFiles/map_test5.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/map_test5.exe.dir/build.make CMakeFiles/map_test5.exe.dir/clean
+.PHONY : CMakeFiles/map_test5.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/map_test5.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/yaml_test5.exe.dir
+
+# All Build rule for target.
+CMakeFiles/yaml_test5.exe.dir/all:
+	$(MAKE) -f CMakeFiles/yaml_test5.exe.dir/build.make CMakeFiles/yaml_test5.exe.dir/depend
+	$(MAKE) -f CMakeFiles/yaml_test5.exe.dir/build.make CMakeFiles/yaml_test5.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=97,98 "Built target yaml_test5.exe"
+.PHONY : CMakeFiles/yaml_test5.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/yaml_test5.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/yaml_test5.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/yaml_test5.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/yaml_test5.exe.dir/rule
+
+# Convenience name for target.
+yaml_test5.exe: CMakeFiles/yaml_test5.exe.dir/rule
+
+.PHONY : yaml_test5.exe
+
+# clean rule for target.
+CMakeFiles/yaml_test5.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/yaml_test5.exe.dir/build.make CMakeFiles/yaml_test5.exe.dir/clean
+.PHONY : CMakeFiles/yaml_test5.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/yaml_test5.exe.dir/clean
 
 .PHONY : clean
 
@@ -106,7 +328,7 @@ clean: CMakeFiles/log_test4.exe.dir/clean
 CMakeFiles/logeventwrap.exe.dir/all:
 	$(MAKE) -f CMakeFiles/logeventwrap.exe.dir/build.make CMakeFiles/logeventwrap.exe.dir/depend
 	$(MAKE) -f CMakeFiles/logeventwrap.exe.dir/build.make CMakeFiles/logeventwrap.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=28,29 "Built target logeventwrap.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=32 "Built target logeventwrap.exe"
 .PHONY : CMakeFiles/logeventwrap.exe.dir/all
 
 # Include target in all.
@@ -116,7 +338,7 @@ all: CMakeFiles/logeventwrap.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/logeventwrap.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/logeventwrap.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/logeventwrap.exe.dir/rule
@@ -143,7 +365,7 @@ clean: CMakeFiles/logeventwrap.exe.dir/clean
 CMakeFiles/util_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/util_test1.exe.dir/build.make CMakeFiles/util_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/util_test1.exe.dir/build.make CMakeFiles/util_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=78,79 "Built target util_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=80,81 "Built target util_test1.exe"
 .PHONY : CMakeFiles/util_test1.exe.dir/all
 
 # Include target in all.
@@ -180,7 +402,7 @@ clean: CMakeFiles/util_test1.exe.dir/clean
 CMakeFiles/time_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/time_test1.exe.dir/build.make CMakeFiles/time_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/time_test1.exe.dir/build.make CMakeFiles/time_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=67,68 "Built target time_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=71 "Built target time_test1.exe"
 .PHONY : CMakeFiles/time_test1.exe.dir/all
 
 # Include target in all.
@@ -190,7 +412,7 @@ all: CMakeFiles/time_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/time_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/time_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/time_test1.exe.dir/rule
@@ -217,7 +439,7 @@ clean: CMakeFiles/time_test1.exe.dir/clean
 CMakeFiles/mkdir_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/mkdir_test1.exe.dir/build.make CMakeFiles/mkdir_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/mkdir_test1.exe.dir/build.make CMakeFiles/mkdir_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=34,35 "Built target mkdir_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=38,39 "Built target mkdir_test1.exe"
 .PHONY : CMakeFiles/mkdir_test1.exe.dir/all
 
 # Include target in all.
@@ -254,7 +476,7 @@ clean: CMakeFiles/mkdir_test1.exe.dir/clean
 CMakeFiles/strchr_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/strchr_test1.exe.dir/build.make CMakeFiles/strchr_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/strchr_test1.exe.dir/build.make CMakeFiles/strchr_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=47,48 "Built target strchr_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=52,53 "Built target strchr_test1.exe"
 .PHONY : CMakeFiles/strchr_test1.exe.dir/all
 
 # Include target in all.
@@ -291,7 +513,7 @@ clean: CMakeFiles/strchr_test1.exe.dir/clean
 CMakeFiles/readdir_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/readdir_test1.exe.dir/build.make CMakeFiles/readdir_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/readdir_test1.exe.dir/build.make CMakeFiles/readdir_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=38 "Built target readdir_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=43 "Built target readdir_test1.exe"
 .PHONY : CMakeFiles/readdir_test1.exe.dir/all
 
 # Include target in all.
@@ -328,7 +550,7 @@ clean: CMakeFiles/readdir_test1.exe.dir/clean
 CMakeFiles/ofstream_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/ofstream_test1.exe.dir/build.make CMakeFiles/ofstream_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/ofstream_test1.exe.dir/build.make CMakeFiles/ofstream_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=36,37 "Built target ofstream_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=40 "Built target ofstream_test1.exe"
 .PHONY : CMakeFiles/ofstream_test1.exe.dir/all
 
 # Include target in all.
@@ -338,7 +560,7 @@ all: CMakeFiles/ofstream_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ofstream_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ofstream_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/ofstream_test1.exe.dir/rule
@@ -365,7 +587,7 @@ clean: CMakeFiles/ofstream_test1.exe.dir/clean
 CMakeFiles/string_test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/string_test2.exe.dir/build.make CMakeFiles/string_test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/string_test2.exe.dir/build.make CMakeFiles/string_test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=60,61 "Built target string_test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=63,64 "Built target string_test2.exe"
 .PHONY : CMakeFiles/string_test2.exe.dir/all
 
 # Include target in all.
@@ -402,7 +624,7 @@ clean: CMakeFiles/string_test2.exe.dir/clean
 CMakeFiles/string_substr1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/string_substr1.exe.dir/build.make CMakeFiles/string_substr1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/string_substr1.exe.dir/build.make CMakeFiles/string_substr1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=54,55 "Built target string_substr1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=58,59 "Built target string_substr1.exe"
 .PHONY : CMakeFiles/string_substr1.exe.dir/all
 
 # Include target in all.
@@ -439,7 +661,7 @@ clean: CMakeFiles/string_substr1.exe.dir/clean
 CMakeFiles/unordered_set.exe.dir/all:
 	$(MAKE) -f CMakeFiles/unordered_set.exe.dir/build.make CMakeFiles/unordered_set.exe.dir/depend
 	$(MAKE) -f CMakeFiles/unordered_set.exe.dir/build.make CMakeFiles/unordered_set.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=76,77 "Built target unordered_set.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=79 "Built target unordered_set.exe"
 .PHONY : CMakeFiles/unordered_set.exe.dir/all
 
 # Include target in all.
@@ -449,7 +671,7 @@ all: CMakeFiles/unordered_set.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unordered_set.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/unordered_set.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/unordered_set.exe.dir/rule
@@ -550,7 +772,7 @@ clean: CMakeFiles/BinarySearch_test1.exe.dir/clean
 CMakeFiles/typeid_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/typeid_test1.exe.dir/build.make CMakeFiles/typeid_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/typeid_test1.exe.dir/build.make CMakeFiles/typeid_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=73,74 "Built target typeid_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=76 "Built target typeid_test1.exe"
 .PHONY : CMakeFiles/typeid_test1.exe.dir/all
 
 # Include target in all.
@@ -560,7 +782,7 @@ all: CMakeFiles/typeid_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/typeid_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/typeid_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/typeid_test1.exe.dir/rule
@@ -587,7 +809,7 @@ clean: CMakeFiles/typeid_test1.exe.dir/clean
 CMakeFiles/strchr_test3.exe.dir/all:
 	$(MAKE) -f CMakeFiles/strchr_test3.exe.dir/build.make CMakeFiles/strchr_test3.exe.dir/depend
 	$(MAKE) -f CMakeFiles/strchr_test3.exe.dir/build.make CMakeFiles/strchr_test3.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=49,50 "Built target strchr_test3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=54 "Built target strchr_test3.exe"
 .PHONY : CMakeFiles/strchr_test3.exe.dir/all
 
 # Include target in all.
@@ -597,7 +819,7 @@ all: CMakeFiles/strchr_test3.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/strchr_test3.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/strchr_test3.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/strchr_test3.exe.dir/rule
@@ -624,7 +846,7 @@ clean: CMakeFiles/strchr_test3.exe.dir/clean
 CMakeFiles/vector_test4.exe.dir/all:
 	$(MAKE) -f CMakeFiles/vector_test4.exe.dir/build.make CMakeFiles/vector_test4.exe.dir/depend
 	$(MAKE) -f CMakeFiles/vector_test4.exe.dir/build.make CMakeFiles/vector_test4.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=93,94 "Built target vector_test4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=93 "Built target vector_test4.exe"
 .PHONY : CMakeFiles/vector_test4.exe.dir/all
 
 # Include target in all.
@@ -634,7 +856,7 @@ all: CMakeFiles/vector_test4.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vector_test4.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vector_test4.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/vector_test4.exe.dir/rule
@@ -661,7 +883,7 @@ clean: CMakeFiles/vector_test4.exe.dir/clean
 CMakeFiles/sscanf_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/sscanf_test1.exe.dir/build.make CMakeFiles/sscanf_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/sscanf_test1.exe.dir/build.make CMakeFiles/sscanf_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=45,46 "Built target sscanf_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=51 "Built target sscanf_test1.exe"
 .PHONY : CMakeFiles/sscanf_test1.exe.dir/all
 
 # Include target in all.
@@ -671,7 +893,7 @@ all: CMakeFiles/sscanf_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sscanf_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sscanf_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/sscanf_test1.exe.dir/rule
@@ -698,7 +920,7 @@ clean: CMakeFiles/sscanf_test1.exe.dir/clean
 CMakeFiles/test4.exe.dir/all:
 	$(MAKE) -f CMakeFiles/test4.exe.dir/build.make CMakeFiles/test4.exe.dir/depend
 	$(MAKE) -f CMakeFiles/test4.exe.dir/build.make CMakeFiles/test4.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=65,66 "Built target test4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=69,70 "Built target test4.exe"
 .PHONY : CMakeFiles/test4.exe.dir/all
 
 # Include target in all.
@@ -729,13 +951,50 @@ clean: CMakeFiles/test4.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/public_shared_ptr.exe.dir
+
+# All Build rule for target.
+CMakeFiles/public_shared_ptr.exe.dir/all:
+	$(MAKE) -f CMakeFiles/public_shared_ptr.exe.dir/build.make CMakeFiles/public_shared_ptr.exe.dir/depend
+	$(MAKE) -f CMakeFiles/public_shared_ptr.exe.dir/build.make CMakeFiles/public_shared_ptr.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=41,42 "Built target public_shared_ptr.exe"
+.PHONY : CMakeFiles/public_shared_ptr.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/public_shared_ptr.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/public_shared_ptr.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/public_shared_ptr.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/public_shared_ptr.exe.dir/rule
+
+# Convenience name for target.
+public_shared_ptr.exe: CMakeFiles/public_shared_ptr.exe.dir/rule
+
+.PHONY : public_shared_ptr.exe
+
+# clean rule for target.
+CMakeFiles/public_shared_ptr.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/public_shared_ptr.exe.dir/build.make CMakeFiles/public_shared_ptr.exe.dir/clean
+.PHONY : CMakeFiles/public_shared_ptr.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/public_shared_ptr.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/list_test1.exe.dir
 
 # All Build rule for target.
 CMakeFiles/list_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/list_test1.exe.dir/build.make CMakeFiles/list_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/list_test1.exe.dir/build.make CMakeFiles/list_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=23,24 "Built target list_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=26 "Built target list_test1.exe"
 .PHONY : CMakeFiles/list_test1.exe.dir/all
 
 # Include target in all.
@@ -745,7 +1004,7 @@ all: CMakeFiles/list_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/list_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/list_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/list_test1.exe.dir/rule
@@ -772,7 +1031,7 @@ clean: CMakeFiles/list_test1.exe.dir/clean
 CMakeFiles/connect_mysql.exe.dir/all:
 	$(MAKE) -f CMakeFiles/connect_mysql.exe.dir/build.make CMakeFiles/connect_mysql.exe.dir/depend
 	$(MAKE) -f CMakeFiles/connect_mysql.exe.dir/build.make CMakeFiles/connect_mysql.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=13,14 "Built target connect_mysql.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=11,12 "Built target connect_mysql.exe"
 .PHONY : CMakeFiles/connect_mysql.exe.dir/all
 
 # Include target in all.
@@ -809,7 +1068,7 @@ clean: CMakeFiles/connect_mysql.exe.dir/clean
 CMakeFiles/test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/test2.exe.dir/build.make CMakeFiles/test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/test2.exe.dir/build.make CMakeFiles/test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=63,64 "Built target test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=68 "Built target test2.exe"
 .PHONY : CMakeFiles/test2.exe.dir/all
 
 # Include target in all.
@@ -819,7 +1078,7 @@ all: CMakeFiles/test2.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test2.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test2.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/test2.exe.dir/rule
@@ -846,7 +1105,7 @@ clean: CMakeFiles/test2.exe.dir/clean
 CMakeFiles/typename_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/typename_test1.exe.dir/build.make CMakeFiles/typename_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/typename_test1.exe.dir/build.make CMakeFiles/typename_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=75 "Built target typename_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=77,78 "Built target typename_test1.exe"
 .PHONY : CMakeFiles/typename_test1.exe.dir/all
 
 # Include target in all.
@@ -856,7 +1115,7 @@ all: CMakeFiles/typename_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/typename_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/typename_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/typename_test1.exe.dir/rule
@@ -883,7 +1142,7 @@ clean: CMakeFiles/typename_test1.exe.dir/clean
 CMakeFiles/singleton_test4.exe.dir/all:
 	$(MAKE) -f CMakeFiles/singleton_test4.exe.dir/build.make CMakeFiles/singleton_test4.exe.dir/depend
 	$(MAKE) -f CMakeFiles/singleton_test4.exe.dir/build.make CMakeFiles/singleton_test4.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=43,44 "Built target singleton_test4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=49,50 "Built target singleton_test4.exe"
 .PHONY : CMakeFiles/singleton_test4.exe.dir/all
 
 # Include target in all.
@@ -920,7 +1179,7 @@ clean: CMakeFiles/singleton_test4.exe.dir/clean
 CMakeFiles/yaml_test3.exe.dir/all:
 	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/depend
 	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=97,98 "Built target yaml_test3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=96 "Built target yaml_test3.exe"
 .PHONY : CMakeFiles/yaml_test3.exe.dir/all
 
 # Include target in all.
@@ -930,7 +1189,7 @@ all: CMakeFiles/yaml_test3.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/yaml_test3.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/yaml_test3.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/yaml_test3.exe.dir/rule
@@ -957,7 +1216,7 @@ clean: CMakeFiles/yaml_test3.exe.dir/clean
 CMakeFiles/va_list_test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/va_list_test2.exe.dir/build.make CMakeFiles/va_list_test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/va_list_test2.exe.dir/build.make CMakeFiles/va_list_test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=80,81 "Built target va_list_test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=82 "Built target va_list_test2.exe"
 .PHONY : CMakeFiles/va_list_test2.exe.dir/all
 
 # Include target in all.
@@ -967,7 +1226,7 @@ all: CMakeFiles/va_list_test2.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/va_list_test2.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/va_list_test2.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/va_list_test2.exe.dir/rule
@@ -994,7 +1253,7 @@ clean: CMakeFiles/va_list_test2.exe.dir/clean
 CMakeFiles/vector_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/vector_test1.exe.dir/build.make CMakeFiles/vector_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/vector_test1.exe.dir/build.make CMakeFiles/vector_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=88 "Built target vector_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=88,89 "Built target vector_test1.exe"
 .PHONY : CMakeFiles/vector_test1.exe.dir/all
 
 # Include target in all.
@@ -1004,7 +1263,7 @@ all: CMakeFiles/vector_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vector_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vector_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/vector_test1.exe.dir/rule
@@ -1031,7 +1290,7 @@ clean: CMakeFiles/vector_test1.exe.dir/clean
 CMakeFiles/va_list_test5.exe.dir/all:
 	$(MAKE) -f CMakeFiles/va_list_test5.exe.dir/build.make CMakeFiles/va_list_test5.exe.dir/depend
 	$(MAKE) -f CMakeFiles/va_list_test5.exe.dir/build.make CMakeFiles/va_list_test5.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=84,85 "Built target va_list_test5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=85 "Built target va_list_test5.exe"
 .PHONY : CMakeFiles/va_list_test5.exe.dir/all
 
 # Include target in all.
@@ -1041,7 +1300,7 @@ all: CMakeFiles/va_list_test5.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/va_list_test5.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/va_list_test5.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/va_list_test5.exe.dir/rule
@@ -1068,7 +1327,7 @@ clean: CMakeFiles/va_list_test5.exe.dir/clean
 CMakeFiles/template_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/template_test1.exe.dir/build.make CMakeFiles/template_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/template_test1.exe.dir/build.make CMakeFiles/template_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=62 "Built target template_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=66,67 "Built target template_test1.exe"
 .PHONY : CMakeFiles/template_test1.exe.dir/all
 
 # Include target in all.
@@ -1078,7 +1337,7 @@ all: CMakeFiles/template_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/template_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/template_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/template_test1.exe.dir/rule
@@ -1105,7 +1364,7 @@ clean: CMakeFiles/template_test1.exe.dir/clean
 CMakeFiles/json_test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/json_test2.exe.dir/build.make CMakeFiles/json_test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/json_test2.exe.dir/build.make CMakeFiles/json_test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=19,20 "Built target json_test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=21 "Built target json_test2.exe"
 .PHONY : CMakeFiles/json_test2.exe.dir/all
 
 # Include target in all.
@@ -1115,7 +1374,7 @@ all: CMakeFiles/json_test2.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/json_test2.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/json_test2.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/json_test2.exe.dir/rule
@@ -1142,7 +1401,7 @@ clean: CMakeFiles/json_test2.exe.dir/clean
 CMakeFiles/strftime.exe.dir/all:
 	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/depend
 	$(MAKE) -f CMakeFiles/strftime.exe.dir/build.make CMakeFiles/strftime.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=52,53 "Built target strftime.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=57 "Built target strftime.exe"
 .PHONY : CMakeFiles/strftime.exe.dir/all
 
 # Include target in all.
@@ -1152,7 +1411,7 @@ all: CMakeFiles/strftime.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/strftime.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/strftime.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/strftime.exe.dir/rule
@@ -1179,7 +1438,7 @@ clean: CMakeFiles/strftime.exe.dir/clean
 CMakeFiles/strchr_test4.exe.dir/all:
 	$(MAKE) -f CMakeFiles/strchr_test4.exe.dir/build.make CMakeFiles/strchr_test4.exe.dir/depend
 	$(MAKE) -f CMakeFiles/strchr_test4.exe.dir/build.make CMakeFiles/strchr_test4.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=51 "Built target strchr_test4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=55,56 "Built target strchr_test4.exe"
 .PHONY : CMakeFiles/strchr_test4.exe.dir/all
 
 # Include target in all.
@@ -1189,7 +1448,7 @@ all: CMakeFiles/strchr_test4.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/strchr_test4.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/strchr_test4.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/strchr_test4.exe.dir/rule
@@ -1216,7 +1475,7 @@ clean: CMakeFiles/strchr_test4.exe.dir/clean
 CMakeFiles/string_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/string_test1.exe.dir/build.make CMakeFiles/string_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=58,59 "Built target string_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=61,62 "Built target string_test1.exe"
 .PHONY : CMakeFiles/string_test1.exe.dir/all
 
 # Include target in all.
@@ -1253,7 +1512,7 @@ clean: CMakeFiles/string_test1.exe.dir/clean
 CMakeFiles/map_test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/map_test2.exe.dir/build.make CMakeFiles/map_test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/map_test2.exe.dir/build.make CMakeFiles/map_test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=32,33 "Built target map_test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=35 "Built target map_test2.exe"
 .PHONY : CMakeFiles/map_test2.exe.dir/all
 
 # Include target in all.
@@ -1263,7 +1522,7 @@ all: CMakeFiles/map_test2.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/map_test2.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/map_test2.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/map_test2.exe.dir/rule
@@ -1290,7 +1549,7 @@ clean: CMakeFiles/map_test2.exe.dir/clean
 CMakeFiles/toYamlString.exe.dir/all:
 	$(MAKE) -f CMakeFiles/toYamlString.exe.dir/build.make CMakeFiles/toYamlString.exe.dir/depend
 	$(MAKE) -f CMakeFiles/toYamlString.exe.dir/build.make CMakeFiles/toYamlString.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=69,70 "Built target toYamlString.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=72,73 "Built target toYamlString.exe"
 .PHONY : CMakeFiles/toYamlString.exe.dir/all
 
 # Include target in all.
@@ -1327,7 +1586,7 @@ clean: CMakeFiles/toYamlString.exe.dir/clean
 CMakeFiles/functional_test.exe.dir/all:
 	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/depend
 	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=17,18 "Built target functional_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=18 "Built target functional_test.exe"
 .PHONY : CMakeFiles/functional_test.exe.dir/all
 
 # Include target in all.
@@ -1337,7 +1596,7 @@ all: CMakeFiles/functional_test.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/functional_test.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/functional_test.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/functional_test.exe.dir/rule
@@ -1364,7 +1623,7 @@ clean: CMakeFiles/functional_test.exe.dir/clean
 CMakeFiles/lambda_test.exe.dir/all:
 	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/depend
 	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=21,22 "Built target lambda_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=22,23 "Built target lambda_test.exe"
 .PHONY : CMakeFiles/lambda_test.exe.dir/all
 
 # Include target in all.
@@ -1395,13 +1654,50 @@ clean: CMakeFiles/lambda_test.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/hello_test1.exe.dir
+
+# All Build rule for target.
+CMakeFiles/hello_test1.exe.dir/all:
+	$(MAKE) -f CMakeFiles/hello_test1.exe.dir/build.make CMakeFiles/hello_test1.exe.dir/depend
+	$(MAKE) -f CMakeFiles/hello_test1.exe.dir/build.make CMakeFiles/hello_test1.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=19,20 "Built target hello_test1.exe"
+.PHONY : CMakeFiles/hello_test1.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/hello_test1.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_test1.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_test1.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/hello_test1.exe.dir/rule
+
+# Convenience name for target.
+hello_test1.exe: CMakeFiles/hello_test1.exe.dir/rule
+
+.PHONY : hello_test1.exe
+
+# clean rule for target.
+CMakeFiles/hello_test1.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/hello_test1.exe.dir/build.make CMakeFiles/hello_test1.exe.dir/clean
+.PHONY : CMakeFiles/hello_test1.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hello_test1.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/boot_test.exe.dir
 
 # All Build rule for target.
 CMakeFiles/boot_test.exe.dir/all:
 	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/depend
 	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=12 "Built target boot_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=10 "Built target boot_test.exe"
 .PHONY : CMakeFiles/boot_test.exe.dir/all
 
 # Include target in all.
@@ -1432,13 +1728,50 @@ clean: CMakeFiles/boot_test.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/log1.exe.dir
+
+# All Build rule for target.
+CMakeFiles/log1.exe.dir/all:
+	$(MAKE) -f CMakeFiles/log1.exe.dir/build.make CMakeFiles/log1.exe.dir/depend
+	$(MAKE) -f CMakeFiles/log1.exe.dir/build.make CMakeFiles/log1.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=27,28 "Built target log1.exe"
+.PHONY : CMakeFiles/log1.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/log1.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/log1.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/log1.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/log1.exe.dir/rule
+
+# Convenience name for target.
+log1.exe: CMakeFiles/log1.exe.dir/rule
+
+.PHONY : log1.exe
+
+# clean rule for target.
+CMakeFiles/log1.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/log1.exe.dir/build.make CMakeFiles/log1.exe.dir/clean
+.PHONY : CMakeFiles/log1.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/log1.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/log_test3.exe.dir
 
 # All Build rule for target.
 CMakeFiles/log_test3.exe.dir/all:
 	$(MAKE) -f CMakeFiles/log_test3.exe.dir/build.make CMakeFiles/log_test3.exe.dir/depend
 	$(MAKE) -f CMakeFiles/log_test3.exe.dir/build.make CMakeFiles/log_test3.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=25 "Built target log_test3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=30,31 "Built target log_test3.exe"
 .PHONY : CMakeFiles/log_test3.exe.dir/all
 
 # Include target in all.
@@ -1448,7 +1781,7 @@ all: CMakeFiles/log_test3.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/log_test3.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/log_test3.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/log_test3.exe.dir/rule
@@ -1475,7 +1808,7 @@ clean: CMakeFiles/log_test3.exe.dir/clean
 CMakeFiles/assert.exe.dir/all:
 	$(MAKE) -f CMakeFiles/assert.exe.dir/build.make CMakeFiles/assert.exe.dir/depend
 	$(MAKE) -f CMakeFiles/assert.exe.dir/build.make CMakeFiles/assert.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=6,7 "Built target assert.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=5,6 "Built target assert.exe"
 .PHONY : CMakeFiles/assert.exe.dir/all
 
 # Include target in all.
@@ -1512,7 +1845,7 @@ clean: CMakeFiles/assert.exe.dir/clean
 CMakeFiles/map_test.exe.dir/all:
 	$(MAKE) -f CMakeFiles/map_test.exe.dir/build.make CMakeFiles/map_test.exe.dir/depend
 	$(MAKE) -f CMakeFiles/map_test.exe.dir/build.make CMakeFiles/map_test.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=30,31 "Built target map_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=33,34 "Built target map_test.exe"
 .PHONY : CMakeFiles/map_test.exe.dir/all
 
 # Include target in all.
@@ -1549,7 +1882,7 @@ clean: CMakeFiles/map_test.exe.dir/clean
 CMakeFiles/while_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/while_test1.exe.dir/build.make CMakeFiles/while_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/while_test1.exe.dir/build.make CMakeFiles/while_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=95,96 "Built target while_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=94,95 "Built target while_test1.exe"
 .PHONY : CMakeFiles/while_test1.exe.dir/all
 
 # Include target in all.
@@ -1623,7 +1956,7 @@ clean: CMakeFiles/vector_test3.exe.dir/clean
 CMakeFiles/array_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/array_test1.exe.dir/build.make CMakeFiles/array_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/array_test1.exe.dir/build.make CMakeFiles/array_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=4,5 "Built target array_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=4 "Built target array_test1.exe"
 .PHONY : CMakeFiles/array_test1.exe.dir/all
 
 # Include target in all.
@@ -1633,7 +1966,7 @@ all: CMakeFiles/array_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/array_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/array_test1.exe.dir/rule
@@ -1660,7 +1993,7 @@ clean: CMakeFiles/array_test1.exe.dir/clean
 CMakeFiles/vector_test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/vector_test2.exe.dir/build.make CMakeFiles/vector_test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/vector_test2.exe.dir/build.make CMakeFiles/vector_test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=89,90 "Built target vector_test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=90 "Built target vector_test2.exe"
 .PHONY : CMakeFiles/vector_test2.exe.dir/all
 
 # Include target in all.
@@ -1670,7 +2003,7 @@ all: CMakeFiles/vector_test2.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vector_test2.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vector_test2.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/vector_test2.exe.dir/rule
@@ -1697,7 +2030,7 @@ clean: CMakeFiles/vector_test2.exe.dir/clean
 CMakeFiles/coutBytes_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/coutBytes_test1.exe.dir/build.make CMakeFiles/coutBytes_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/coutBytes_test1.exe.dir/build.make CMakeFiles/coutBytes_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=15,16 "Built target coutBytes_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=13,14 "Built target coutBytes_test1.exe"
 .PHONY : CMakeFiles/coutBytes_test1.exe.dir/all
 
 # Include target in all.
@@ -1734,7 +2067,7 @@ clean: CMakeFiles/coutBytes_test1.exe.dir/clean
 CMakeFiles/transform_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/transform_test1.exe.dir/build.make CMakeFiles/transform_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/transform_test1.exe.dir/build.make CMakeFiles/transform_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=71,72 "Built target transform_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=74,75 "Built target transform_test1.exe"
 .PHONY : CMakeFiles/transform_test1.exe.dir/all
 
 # Include target in all.
@@ -1765,13 +2098,50 @@ clean: CMakeFiles/transform_test1.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/log2.exe.dir
+
+# All Build rule for target.
+CMakeFiles/log2.exe.dir/all:
+	$(MAKE) -f CMakeFiles/log2.exe.dir/build.make CMakeFiles/log2.exe.dir/depend
+	$(MAKE) -f CMakeFiles/log2.exe.dir/build.make CMakeFiles/log2.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=29 "Built target log2.exe"
+.PHONY : CMakeFiles/log2.exe.dir/all
+
+# Include target in all.
+all: CMakeFiles/log2.exe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/log2.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/log2.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/log2.exe.dir/rule
+
+# Convenience name for target.
+log2.exe: CMakeFiles/log2.exe.dir/rule
+
+.PHONY : log2.exe
+
+# clean rule for target.
+CMakeFiles/log2.exe.dir/clean:
+	$(MAKE) -f CMakeFiles/log2.exe.dir/build.make CMakeFiles/log2.exe.dir/clean
+.PHONY : CMakeFiles/log2.exe.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/log2.exe.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/set_test2.exe.dir
 
 # All Build rule for target.
 CMakeFiles/set_test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/set_test2.exe.dir/build.make CMakeFiles/set_test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/set_test2.exe.dir/build.make CMakeFiles/set_test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=39,40 "Built target set_test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=44,45 "Built target set_test2.exe"
 .PHONY : CMakeFiles/set_test2.exe.dir/all
 
 # Include target in all.
@@ -1845,7 +2215,7 @@ clean: CMakeFiles/__builtin_expect.exe.dir/clean
 CMakeFiles/backtrace_test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/backtrace_test2.exe.dir/build.make CMakeFiles/backtrace_test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/backtrace_test2.exe.dir/build.make CMakeFiles/backtrace_test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=10,11 "Built target backtrace_test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=8,9 "Built target backtrace_test2.exe"
 .PHONY : CMakeFiles/backtrace_test2.exe.dir/all
 
 # Include target in all.
@@ -1882,7 +2252,7 @@ clean: CMakeFiles/backtrace_test2.exe.dir/clean
 CMakeFiles/backtrace.exe.dir/all:
 	$(MAKE) -f CMakeFiles/backtrace.exe.dir/build.make CMakeFiles/backtrace.exe.dir/depend
 	$(MAKE) -f CMakeFiles/backtrace.exe.dir/build.make CMakeFiles/backtrace.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=8,9 "Built target backtrace.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=7 "Built target backtrace.exe"
 .PHONY : CMakeFiles/backtrace.exe.dir/all
 
 # Include target in all.
@@ -1892,7 +2262,7 @@ all: CMakeFiles/backtrace.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/backtrace.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/backtrace.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/backtrace.exe.dir/rule
@@ -1956,7 +2326,7 @@ clean: CMakeFiles/va_list_test6.exe.dir/clean
 CMakeFiles/va_list_test4.exe.dir/all:
 	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/depend
 	$(MAKE) -f CMakeFiles/va_list_test4.exe.dir/build.make CMakeFiles/va_list_test4.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=82,83 "Built target va_list_test4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=83,84 "Built target va_list_test4.exe"
 .PHONY : CMakeFiles/va_list_test4.exe.dir/all
 
 # Include target in all.
@@ -1993,7 +2363,7 @@ clean: CMakeFiles/va_list_test4.exe.dir/clean
 CMakeFiles/singleton_test2.exe.dir/all:
 	$(MAKE) -f CMakeFiles/singleton_test2.exe.dir/build.make CMakeFiles/singleton_test2.exe.dir/depend
 	$(MAKE) -f CMakeFiles/singleton_test2.exe.dir/build.make CMakeFiles/singleton_test2.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=41,42 "Built target singleton_test2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=47,48 "Built target singleton_test2.exe"
 .PHONY : CMakeFiles/singleton_test2.exe.dir/all
 
 # Include target in all.
@@ -2030,7 +2400,7 @@ clean: CMakeFiles/singleton_test2.exe.dir/clean
 CMakeFiles/string_substr_test1.exe.dir/all:
 	$(MAKE) -f CMakeFiles/string_substr_test1.exe.dir/build.make CMakeFiles/string_substr_test1.exe.dir/depend
 	$(MAKE) -f CMakeFiles/string_substr_test1.exe.dir/build.make CMakeFiles/string_substr_test1.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=56,57 "Built target string_substr_test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/working/tests_c-c-/tests/build/CMakeFiles --progress-num=60 "Built target string_substr_test1.exe"
 .PHONY : CMakeFiles/string_substr_test1.exe.dir/all
 
 # Include target in all.
@@ -2040,7 +2410,7 @@ all: CMakeFiles/string_substr_test1.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/string_substr_test1.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/string_substr_test1.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/working/tests_c-c-/tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/string_substr_test1.exe.dir/rule

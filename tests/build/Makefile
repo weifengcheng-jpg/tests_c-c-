@@ -114,17 +114,95 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named log_test4.exe
+# Target rules for targets named string_test4.exe
 
 # Build rule for target.
-log_test4.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 log_test4.exe
-.PHONY : log_test4.exe
+string_test4.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_test4.exe
+.PHONY : string_test4.exe
 
 # fast build rule for target.
-log_test4.exe/fast:
-	$(MAKE) -f CMakeFiles/log_test4.exe.dir/build.make CMakeFiles/log_test4.exe.dir/build
-.PHONY : log_test4.exe/fast
+string_test4.exe/fast:
+	$(MAKE) -f CMakeFiles/string_test4.exe.dir/build.make CMakeFiles/string_test4.exe.dir/build
+.PHONY : string_test4.exe/fast
+
+#=============================================================================
+# Target rules for targets named function_3.exe
+
+# Build rule for target.
+function_3.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 function_3.exe
+.PHONY : function_3.exe
+
+# fast build rule for target.
+function_3.exe/fast:
+	$(MAKE) -f CMakeFiles/function_3.exe.dir/build.make CMakeFiles/function_3.exe.dir/build
+.PHONY : function_3.exe/fast
+
+#=============================================================================
+# Target rules for targets named function_2.exe
+
+# Build rule for target.
+function_2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 function_2.exe
+.PHONY : function_2.exe
+
+# fast build rule for target.
+function_2.exe/fast:
+	$(MAKE) -f CMakeFiles/function_2.exe.dir/build.make CMakeFiles/function_2.exe.dir/build
+.PHONY : function_2.exe/fast
+
+#=============================================================================
+# Target rules for targets named shared_ptr_new1.exe
+
+# Build rule for target.
+shared_ptr_new1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shared_ptr_new1.exe
+.PHONY : shared_ptr_new1.exe
+
+# fast build rule for target.
+shared_ptr_new1.exe/fast:
+	$(MAKE) -f CMakeFiles/shared_ptr_new1.exe.dir/build.make CMakeFiles/shared_ptr_new1.exe.dir/build
+.PHONY : shared_ptr_new1.exe/fast
+
+#=============================================================================
+# Target rules for targets named lambda_test2.exe
+
+# Build rule for target.
+lambda_test2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lambda_test2.exe
+.PHONY : lambda_test2.exe
+
+# fast build rule for target.
+lambda_test2.exe/fast:
+	$(MAKE) -f CMakeFiles/lambda_test2.exe.dir/build.make CMakeFiles/lambda_test2.exe.dir/build
+.PHONY : lambda_test2.exe/fast
+
+#=============================================================================
+# Target rules for targets named map_test5.exe
+
+# Build rule for target.
+map_test5.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 map_test5.exe
+.PHONY : map_test5.exe
+
+# fast build rule for target.
+map_test5.exe/fast:
+	$(MAKE) -f CMakeFiles/map_test5.exe.dir/build.make CMakeFiles/map_test5.exe.dir/build
+.PHONY : map_test5.exe/fast
+
+#=============================================================================
+# Target rules for targets named yaml_test5.exe
+
+# Build rule for target.
+yaml_test5.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yaml_test5.exe
+.PHONY : yaml_test5.exe
+
+# fast build rule for target.
+yaml_test5.exe/fast:
+	$(MAKE) -f CMakeFiles/yaml_test5.exe.dir/build.make CMakeFiles/yaml_test5.exe.dir/build
+.PHONY : yaml_test5.exe/fast
 
 #=============================================================================
 # Target rules for targets named logeventwrap.exe
@@ -346,6 +424,19 @@ test4.exe: cmake_check_build_system
 test4.exe/fast:
 	$(MAKE) -f CMakeFiles/test4.exe.dir/build.make CMakeFiles/test4.exe.dir/build
 .PHONY : test4.exe/fast
+
+#=============================================================================
+# Target rules for targets named public_shared_ptr.exe
+
+# Build rule for target.
+public_shared_ptr.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 public_shared_ptr.exe
+.PHONY : public_shared_ptr.exe
+
+# fast build rule for target.
+public_shared_ptr.exe/fast:
+	$(MAKE) -f CMakeFiles/public_shared_ptr.exe.dir/build.make CMakeFiles/public_shared_ptr.exe.dir/build
+.PHONY : public_shared_ptr.exe/fast
 
 #=============================================================================
 # Target rules for targets named list_test1.exe
@@ -582,6 +673,19 @@ lambda_test.exe/fast:
 .PHONY : lambda_test.exe/fast
 
 #=============================================================================
+# Target rules for targets named hello_test1.exe
+
+# Build rule for target.
+hello_test1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_test1.exe
+.PHONY : hello_test1.exe
+
+# fast build rule for target.
+hello_test1.exe/fast:
+	$(MAKE) -f CMakeFiles/hello_test1.exe.dir/build.make CMakeFiles/hello_test1.exe.dir/build
+.PHONY : hello_test1.exe/fast
+
+#=============================================================================
 # Target rules for targets named boot_test.exe
 
 # Build rule for target.
@@ -593,6 +697,19 @@ boot_test.exe: cmake_check_build_system
 boot_test.exe/fast:
 	$(MAKE) -f CMakeFiles/boot_test.exe.dir/build.make CMakeFiles/boot_test.exe.dir/build
 .PHONY : boot_test.exe/fast
+
+#=============================================================================
+# Target rules for targets named log1.exe
+
+# Build rule for target.
+log1.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 log1.exe
+.PHONY : log1.exe
+
+# fast build rule for target.
+log1.exe/fast:
+	$(MAKE) -f CMakeFiles/log1.exe.dir/build.make CMakeFiles/log1.exe.dir/build
+.PHONY : log1.exe/fast
 
 #=============================================================================
 # Target rules for targets named log_test3.exe
@@ -710,6 +827,19 @@ transform_test1.exe: cmake_check_build_system
 transform_test1.exe/fast:
 	$(MAKE) -f CMakeFiles/transform_test1.exe.dir/build.make CMakeFiles/transform_test1.exe.dir/build
 .PHONY : transform_test1.exe/fast
+
+#=============================================================================
+# Target rules for targets named log2.exe
+
+# Build rule for target.
+log2.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 log2.exe
+.PHONY : log2.exe
+
+# fast build rule for target.
+log2.exe/fast:
+	$(MAKE) -f CMakeFiles/log2.exe.dir/build.make CMakeFiles/log2.exe.dir/build
+.PHONY : log2.exe/fast
 
 #=============================================================================
 # Target rules for targets named set_test2.exe
@@ -1058,6 +1188,60 @@ tests/coutBytes_test1.cc.s:
 	$(MAKE) -f CMakeFiles/coutBytes_test1.exe.dir/build.make CMakeFiles/coutBytes_test1.exe.dir/tests/coutBytes_test1.cc.s
 .PHONY : tests/coutBytes_test1.cc.s
 
+tests/function_2.o: tests/function_2.cc.o
+
+.PHONY : tests/function_2.o
+
+# target to build an object file
+tests/function_2.cc.o:
+	$(MAKE) -f CMakeFiles/function_2.exe.dir/build.make CMakeFiles/function_2.exe.dir/tests/function_2.cc.o
+.PHONY : tests/function_2.cc.o
+
+tests/function_2.i: tests/function_2.cc.i
+
+.PHONY : tests/function_2.i
+
+# target to preprocess a source file
+tests/function_2.cc.i:
+	$(MAKE) -f CMakeFiles/function_2.exe.dir/build.make CMakeFiles/function_2.exe.dir/tests/function_2.cc.i
+.PHONY : tests/function_2.cc.i
+
+tests/function_2.s: tests/function_2.cc.s
+
+.PHONY : tests/function_2.s
+
+# target to generate assembly for a file
+tests/function_2.cc.s:
+	$(MAKE) -f CMakeFiles/function_2.exe.dir/build.make CMakeFiles/function_2.exe.dir/tests/function_2.cc.s
+.PHONY : tests/function_2.cc.s
+
+tests/function_3.o: tests/function_3.cc.o
+
+.PHONY : tests/function_3.o
+
+# target to build an object file
+tests/function_3.cc.o:
+	$(MAKE) -f CMakeFiles/function_3.exe.dir/build.make CMakeFiles/function_3.exe.dir/tests/function_3.cc.o
+.PHONY : tests/function_3.cc.o
+
+tests/function_3.i: tests/function_3.cc.i
+
+.PHONY : tests/function_3.i
+
+# target to preprocess a source file
+tests/function_3.cc.i:
+	$(MAKE) -f CMakeFiles/function_3.exe.dir/build.make CMakeFiles/function_3.exe.dir/tests/function_3.cc.i
+.PHONY : tests/function_3.cc.i
+
+tests/function_3.s: tests/function_3.cc.s
+
+.PHONY : tests/function_3.s
+
+# target to generate assembly for a file
+tests/function_3.cc.s:
+	$(MAKE) -f CMakeFiles/function_3.exe.dir/build.make CMakeFiles/function_3.exe.dir/tests/function_3.cc.s
+.PHONY : tests/function_3.cc.s
+
 tests/functional_test.o: tests/functional_test.cc.o
 
 .PHONY : tests/functional_test.o
@@ -1084,6 +1268,33 @@ tests/functional_test.s: tests/functional_test.cc.s
 tests/functional_test.cc.s:
 	$(MAKE) -f CMakeFiles/functional_test.exe.dir/build.make CMakeFiles/functional_test.exe.dir/tests/functional_test.cc.s
 .PHONY : tests/functional_test.cc.s
+
+tests/hello_test1.o: tests/hello_test1.cc.o
+
+.PHONY : tests/hello_test1.o
+
+# target to build an object file
+tests/hello_test1.cc.o:
+	$(MAKE) -f CMakeFiles/hello_test1.exe.dir/build.make CMakeFiles/hello_test1.exe.dir/tests/hello_test1.cc.o
+.PHONY : tests/hello_test1.cc.o
+
+tests/hello_test1.i: tests/hello_test1.cc.i
+
+.PHONY : tests/hello_test1.i
+
+# target to preprocess a source file
+tests/hello_test1.cc.i:
+	$(MAKE) -f CMakeFiles/hello_test1.exe.dir/build.make CMakeFiles/hello_test1.exe.dir/tests/hello_test1.cc.i
+.PHONY : tests/hello_test1.cc.i
+
+tests/hello_test1.s: tests/hello_test1.cc.s
+
+.PHONY : tests/hello_test1.s
+
+# target to generate assembly for a file
+tests/hello_test1.cc.s:
+	$(MAKE) -f CMakeFiles/hello_test1.exe.dir/build.make CMakeFiles/hello_test1.exe.dir/tests/hello_test1.cc.s
+.PHONY : tests/hello_test1.cc.s
 
 tests/json_test2.o: tests/json_test2.cc.o
 
@@ -1139,6 +1350,33 @@ tests/lambda_test.cc.s:
 	$(MAKE) -f CMakeFiles/lambda_test.exe.dir/build.make CMakeFiles/lambda_test.exe.dir/tests/lambda_test.cc.s
 .PHONY : tests/lambda_test.cc.s
 
+tests/lambda_test2.o: tests/lambda_test2.cc.o
+
+.PHONY : tests/lambda_test2.o
+
+# target to build an object file
+tests/lambda_test2.cc.o:
+	$(MAKE) -f CMakeFiles/lambda_test2.exe.dir/build.make CMakeFiles/lambda_test2.exe.dir/tests/lambda_test2.cc.o
+.PHONY : tests/lambda_test2.cc.o
+
+tests/lambda_test2.i: tests/lambda_test2.cc.i
+
+.PHONY : tests/lambda_test2.i
+
+# target to preprocess a source file
+tests/lambda_test2.cc.i:
+	$(MAKE) -f CMakeFiles/lambda_test2.exe.dir/build.make CMakeFiles/lambda_test2.exe.dir/tests/lambda_test2.cc.i
+.PHONY : tests/lambda_test2.cc.i
+
+tests/lambda_test2.s: tests/lambda_test2.cc.s
+
+.PHONY : tests/lambda_test2.s
+
+# target to generate assembly for a file
+tests/lambda_test2.cc.s:
+	$(MAKE) -f CMakeFiles/lambda_test2.exe.dir/build.make CMakeFiles/lambda_test2.exe.dir/tests/lambda_test2.cc.s
+.PHONY : tests/lambda_test2.cc.s
+
 tests/list_test1.o: tests/list_test1.cc.o
 
 .PHONY : tests/list_test1.o
@@ -1166,6 +1404,60 @@ tests/list_test1.cc.s:
 	$(MAKE) -f CMakeFiles/list_test1.exe.dir/build.make CMakeFiles/list_test1.exe.dir/tests/list_test1.cc.s
 .PHONY : tests/list_test1.cc.s
 
+tests/log1.o: tests/log1.cc.o
+
+.PHONY : tests/log1.o
+
+# target to build an object file
+tests/log1.cc.o:
+	$(MAKE) -f CMakeFiles/log1.exe.dir/build.make CMakeFiles/log1.exe.dir/tests/log1.cc.o
+.PHONY : tests/log1.cc.o
+
+tests/log1.i: tests/log1.cc.i
+
+.PHONY : tests/log1.i
+
+# target to preprocess a source file
+tests/log1.cc.i:
+	$(MAKE) -f CMakeFiles/log1.exe.dir/build.make CMakeFiles/log1.exe.dir/tests/log1.cc.i
+.PHONY : tests/log1.cc.i
+
+tests/log1.s: tests/log1.cc.s
+
+.PHONY : tests/log1.s
+
+# target to generate assembly for a file
+tests/log1.cc.s:
+	$(MAKE) -f CMakeFiles/log1.exe.dir/build.make CMakeFiles/log1.exe.dir/tests/log1.cc.s
+.PHONY : tests/log1.cc.s
+
+tests/log2.o: tests/log2.cc.o
+
+.PHONY : tests/log2.o
+
+# target to build an object file
+tests/log2.cc.o:
+	$(MAKE) -f CMakeFiles/log2.exe.dir/build.make CMakeFiles/log2.exe.dir/tests/log2.cc.o
+.PHONY : tests/log2.cc.o
+
+tests/log2.i: tests/log2.cc.i
+
+.PHONY : tests/log2.i
+
+# target to preprocess a source file
+tests/log2.cc.i:
+	$(MAKE) -f CMakeFiles/log2.exe.dir/build.make CMakeFiles/log2.exe.dir/tests/log2.cc.i
+.PHONY : tests/log2.cc.i
+
+tests/log2.s: tests/log2.cc.s
+
+.PHONY : tests/log2.s
+
+# target to generate assembly for a file
+tests/log2.cc.s:
+	$(MAKE) -f CMakeFiles/log2.exe.dir/build.make CMakeFiles/log2.exe.dir/tests/log2.cc.s
+.PHONY : tests/log2.cc.s
+
 tests/log_test3.o: tests/log_test3.cc.o
 
 .PHONY : tests/log_test3.o
@@ -1192,33 +1484,6 @@ tests/log_test3.s: tests/log_test3.cc.s
 tests/log_test3.cc.s:
 	$(MAKE) -f CMakeFiles/log_test3.exe.dir/build.make CMakeFiles/log_test3.exe.dir/tests/log_test3.cc.s
 .PHONY : tests/log_test3.cc.s
-
-tests/log_test4.o: tests/log_test4.cc.o
-
-.PHONY : tests/log_test4.o
-
-# target to build an object file
-tests/log_test4.cc.o:
-	$(MAKE) -f CMakeFiles/log_test4.exe.dir/build.make CMakeFiles/log_test4.exe.dir/tests/log_test4.cc.o
-.PHONY : tests/log_test4.cc.o
-
-tests/log_test4.i: tests/log_test4.cc.i
-
-.PHONY : tests/log_test4.i
-
-# target to preprocess a source file
-tests/log_test4.cc.i:
-	$(MAKE) -f CMakeFiles/log_test4.exe.dir/build.make CMakeFiles/log_test4.exe.dir/tests/log_test4.cc.i
-.PHONY : tests/log_test4.cc.i
-
-tests/log_test4.s: tests/log_test4.cc.s
-
-.PHONY : tests/log_test4.s
-
-# target to generate assembly for a file
-tests/log_test4.cc.s:
-	$(MAKE) -f CMakeFiles/log_test4.exe.dir/build.make CMakeFiles/log_test4.exe.dir/tests/log_test4.cc.s
-.PHONY : tests/log_test4.cc.s
 
 tests/logeventwrap.o: tests/logeventwrap.cc.o
 
@@ -1301,6 +1566,33 @@ tests/map_test2.cc.s:
 	$(MAKE) -f CMakeFiles/map_test2.exe.dir/build.make CMakeFiles/map_test2.exe.dir/tests/map_test2.cc.s
 .PHONY : tests/map_test2.cc.s
 
+tests/map_test5.o: tests/map_test5.cc.o
+
+.PHONY : tests/map_test5.o
+
+# target to build an object file
+tests/map_test5.cc.o:
+	$(MAKE) -f CMakeFiles/map_test5.exe.dir/build.make CMakeFiles/map_test5.exe.dir/tests/map_test5.cc.o
+.PHONY : tests/map_test5.cc.o
+
+tests/map_test5.i: tests/map_test5.cc.i
+
+.PHONY : tests/map_test5.i
+
+# target to preprocess a source file
+tests/map_test5.cc.i:
+	$(MAKE) -f CMakeFiles/map_test5.exe.dir/build.make CMakeFiles/map_test5.exe.dir/tests/map_test5.cc.i
+.PHONY : tests/map_test5.cc.i
+
+tests/map_test5.s: tests/map_test5.cc.s
+
+.PHONY : tests/map_test5.s
+
+# target to generate assembly for a file
+tests/map_test5.cc.s:
+	$(MAKE) -f CMakeFiles/map_test5.exe.dir/build.make CMakeFiles/map_test5.exe.dir/tests/map_test5.cc.s
+.PHONY : tests/map_test5.cc.s
+
 tests/mkdir_test1.o: tests/mkdir_test1.cc.o
 
 .PHONY : tests/mkdir_test1.o
@@ -1355,6 +1647,33 @@ tests/ofstream_test1.cc.s:
 	$(MAKE) -f CMakeFiles/ofstream_test1.exe.dir/build.make CMakeFiles/ofstream_test1.exe.dir/tests/ofstream_test1.cc.s
 .PHONY : tests/ofstream_test1.cc.s
 
+tests/public_shared_ptr.o: tests/public_shared_ptr.cc.o
+
+.PHONY : tests/public_shared_ptr.o
+
+# target to build an object file
+tests/public_shared_ptr.cc.o:
+	$(MAKE) -f CMakeFiles/public_shared_ptr.exe.dir/build.make CMakeFiles/public_shared_ptr.exe.dir/tests/public_shared_ptr.cc.o
+.PHONY : tests/public_shared_ptr.cc.o
+
+tests/public_shared_ptr.i: tests/public_shared_ptr.cc.i
+
+.PHONY : tests/public_shared_ptr.i
+
+# target to preprocess a source file
+tests/public_shared_ptr.cc.i:
+	$(MAKE) -f CMakeFiles/public_shared_ptr.exe.dir/build.make CMakeFiles/public_shared_ptr.exe.dir/tests/public_shared_ptr.cc.i
+.PHONY : tests/public_shared_ptr.cc.i
+
+tests/public_shared_ptr.s: tests/public_shared_ptr.cc.s
+
+.PHONY : tests/public_shared_ptr.s
+
+# target to generate assembly for a file
+tests/public_shared_ptr.cc.s:
+	$(MAKE) -f CMakeFiles/public_shared_ptr.exe.dir/build.make CMakeFiles/public_shared_ptr.exe.dir/tests/public_shared_ptr.cc.s
+.PHONY : tests/public_shared_ptr.cc.s
+
 tests/readdir_test1.o: tests/readdir_test1.cc.o
 
 .PHONY : tests/readdir_test1.o
@@ -1408,6 +1727,33 @@ tests/set_test2.s: tests/set_test2.cc.s
 tests/set_test2.cc.s:
 	$(MAKE) -f CMakeFiles/set_test2.exe.dir/build.make CMakeFiles/set_test2.exe.dir/tests/set_test2.cc.s
 .PHONY : tests/set_test2.cc.s
+
+tests/shared_ptr_new1.o: tests/shared_ptr_new1.cc.o
+
+.PHONY : tests/shared_ptr_new1.o
+
+# target to build an object file
+tests/shared_ptr_new1.cc.o:
+	$(MAKE) -f CMakeFiles/shared_ptr_new1.exe.dir/build.make CMakeFiles/shared_ptr_new1.exe.dir/tests/shared_ptr_new1.cc.o
+.PHONY : tests/shared_ptr_new1.cc.o
+
+tests/shared_ptr_new1.i: tests/shared_ptr_new1.cc.i
+
+.PHONY : tests/shared_ptr_new1.i
+
+# target to preprocess a source file
+tests/shared_ptr_new1.cc.i:
+	$(MAKE) -f CMakeFiles/shared_ptr_new1.exe.dir/build.make CMakeFiles/shared_ptr_new1.exe.dir/tests/shared_ptr_new1.cc.i
+.PHONY : tests/shared_ptr_new1.cc.i
+
+tests/shared_ptr_new1.s: tests/shared_ptr_new1.cc.s
+
+.PHONY : tests/shared_ptr_new1.s
+
+# target to generate assembly for a file
+tests/shared_ptr_new1.cc.s:
+	$(MAKE) -f CMakeFiles/shared_ptr_new1.exe.dir/build.make CMakeFiles/shared_ptr_new1.exe.dir/tests/shared_ptr_new1.cc.s
+.PHONY : tests/shared_ptr_new1.cc.s
 
 tests/singleton_test2.o: tests/singleton_test2.cc.o
 
@@ -1705,6 +2051,33 @@ tests/string_test2.s: tests/string_test2.cc.s
 tests/string_test2.cc.s:
 	$(MAKE) -f CMakeFiles/string_test2.exe.dir/build.make CMakeFiles/string_test2.exe.dir/tests/string_test2.cc.s
 .PHONY : tests/string_test2.cc.s
+
+tests/string_test4.o: tests/string_test4.cc.o
+
+.PHONY : tests/string_test4.o
+
+# target to build an object file
+tests/string_test4.cc.o:
+	$(MAKE) -f CMakeFiles/string_test4.exe.dir/build.make CMakeFiles/string_test4.exe.dir/tests/string_test4.cc.o
+.PHONY : tests/string_test4.cc.o
+
+tests/string_test4.i: tests/string_test4.cc.i
+
+.PHONY : tests/string_test4.i
+
+# target to preprocess a source file
+tests/string_test4.cc.i:
+	$(MAKE) -f CMakeFiles/string_test4.exe.dir/build.make CMakeFiles/string_test4.exe.dir/tests/string_test4.cc.i
+.PHONY : tests/string_test4.cc.i
+
+tests/string_test4.s: tests/string_test4.cc.s
+
+.PHONY : tests/string_test4.s
+
+# target to generate assembly for a file
+tests/string_test4.cc.s:
+	$(MAKE) -f CMakeFiles/string_test4.exe.dir/build.make CMakeFiles/string_test4.exe.dir/tests/string_test4.cc.s
+.PHONY : tests/string_test4.cc.s
 
 tests/template_test1.o: tests/template_test1.cc.o
 
@@ -2246,6 +2619,33 @@ tests/yaml_test3.cc.s:
 	$(MAKE) -f CMakeFiles/yaml_test3.exe.dir/build.make CMakeFiles/yaml_test3.exe.dir/tests/yaml_test3.cc.s
 .PHONY : tests/yaml_test3.cc.s
 
+tests/yaml_test5.o: tests/yaml_test5.cc.o
+
+.PHONY : tests/yaml_test5.o
+
+# target to build an object file
+tests/yaml_test5.cc.o:
+	$(MAKE) -f CMakeFiles/yaml_test5.exe.dir/build.make CMakeFiles/yaml_test5.exe.dir/tests/yaml_test5.cc.o
+.PHONY : tests/yaml_test5.cc.o
+
+tests/yaml_test5.i: tests/yaml_test5.cc.i
+
+.PHONY : tests/yaml_test5.i
+
+# target to preprocess a source file
+tests/yaml_test5.cc.i:
+	$(MAKE) -f CMakeFiles/yaml_test5.exe.dir/build.make CMakeFiles/yaml_test5.exe.dir/tests/yaml_test5.cc.i
+.PHONY : tests/yaml_test5.cc.i
+
+tests/yaml_test5.s: tests/yaml_test5.cc.s
+
+.PHONY : tests/yaml_test5.s
+
+# target to generate assembly for a file
+tests/yaml_test5.cc.s:
+	$(MAKE) -f CMakeFiles/yaml_test5.exe.dir/build.make CMakeFiles/yaml_test5.exe.dir/tests/yaml_test5.cc.s
+.PHONY : tests/yaml_test5.cc.s
+
 tests/yamltojson_test1.o: tests/yamltojson_test1.cc.o
 
 .PHONY : tests/yamltojson_test1.o
@@ -2281,7 +2681,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... log_test4.exe"
+	@echo "... string_test4.exe"
+	@echo "... function_3.exe"
+	@echo "... function_2.exe"
+	@echo "... shared_ptr_new1.exe"
+	@echo "... lambda_test2.exe"
+	@echo "... map_test5.exe"
+	@echo "... yaml_test5.exe"
 	@echo "... logeventwrap.exe"
 	@echo "... util_test1.exe"
 	@echo "... time_test1.exe"
@@ -2299,6 +2705,7 @@ help:
 	@echo "... vector_test4.exe"
 	@echo "... sscanf_test1.exe"
 	@echo "... test4.exe"
+	@echo "... public_shared_ptr.exe"
 	@echo "... list_test1.exe"
 	@echo "... connect_mysql.exe"
 	@echo "... test2.exe"
@@ -2317,7 +2724,9 @@ help:
 	@echo "... toYamlString.exe"
 	@echo "... functional_test.exe"
 	@echo "... lambda_test.exe"
+	@echo "... hello_test1.exe"
 	@echo "... boot_test.exe"
+	@echo "... log1.exe"
 	@echo "... log_test3.exe"
 	@echo "... assert.exe"
 	@echo "... map_test.exe"
@@ -2327,6 +2736,7 @@ help:
 	@echo "... vector_test2.exe"
 	@echo "... coutBytes_test1.exe"
 	@echo "... transform_test1.exe"
+	@echo "... log2.exe"
 	@echo "... set_test2.exe"
 	@echo "... __builtin_expect.exe"
 	@echo "... backtrace_test2.exe"
@@ -2362,24 +2772,39 @@ help:
 	@echo "... tests/coutBytes_test1.o"
 	@echo "... tests/coutBytes_test1.i"
 	@echo "... tests/coutBytes_test1.s"
+	@echo "... tests/function_2.o"
+	@echo "... tests/function_2.i"
+	@echo "... tests/function_2.s"
+	@echo "... tests/function_3.o"
+	@echo "... tests/function_3.i"
+	@echo "... tests/function_3.s"
 	@echo "... tests/functional_test.o"
 	@echo "... tests/functional_test.i"
 	@echo "... tests/functional_test.s"
+	@echo "... tests/hello_test1.o"
+	@echo "... tests/hello_test1.i"
+	@echo "... tests/hello_test1.s"
 	@echo "... tests/json_test2.o"
 	@echo "... tests/json_test2.i"
 	@echo "... tests/json_test2.s"
 	@echo "... tests/lambda_test.o"
 	@echo "... tests/lambda_test.i"
 	@echo "... tests/lambda_test.s"
+	@echo "... tests/lambda_test2.o"
+	@echo "... tests/lambda_test2.i"
+	@echo "... tests/lambda_test2.s"
 	@echo "... tests/list_test1.o"
 	@echo "... tests/list_test1.i"
 	@echo "... tests/list_test1.s"
+	@echo "... tests/log1.o"
+	@echo "... tests/log1.i"
+	@echo "... tests/log1.s"
+	@echo "... tests/log2.o"
+	@echo "... tests/log2.i"
+	@echo "... tests/log2.s"
 	@echo "... tests/log_test3.o"
 	@echo "... tests/log_test3.i"
 	@echo "... tests/log_test3.s"
-	@echo "... tests/log_test4.o"
-	@echo "... tests/log_test4.i"
-	@echo "... tests/log_test4.s"
 	@echo "... tests/logeventwrap.o"
 	@echo "... tests/logeventwrap.i"
 	@echo "... tests/logeventwrap.s"
@@ -2389,18 +2814,27 @@ help:
 	@echo "... tests/map_test2.o"
 	@echo "... tests/map_test2.i"
 	@echo "... tests/map_test2.s"
+	@echo "... tests/map_test5.o"
+	@echo "... tests/map_test5.i"
+	@echo "... tests/map_test5.s"
 	@echo "... tests/mkdir_test1.o"
 	@echo "... tests/mkdir_test1.i"
 	@echo "... tests/mkdir_test1.s"
 	@echo "... tests/ofstream_test1.o"
 	@echo "... tests/ofstream_test1.i"
 	@echo "... tests/ofstream_test1.s"
+	@echo "... tests/public_shared_ptr.o"
+	@echo "... tests/public_shared_ptr.i"
+	@echo "... tests/public_shared_ptr.s"
 	@echo "... tests/readdir_test1.o"
 	@echo "... tests/readdir_test1.i"
 	@echo "... tests/readdir_test1.s"
 	@echo "... tests/set_test2.o"
 	@echo "... tests/set_test2.i"
 	@echo "... tests/set_test2.s"
+	@echo "... tests/shared_ptr_new1.o"
+	@echo "... tests/shared_ptr_new1.i"
+	@echo "... tests/shared_ptr_new1.s"
 	@echo "... tests/singleton_test2.o"
 	@echo "... tests/singleton_test2.i"
 	@echo "... tests/singleton_test2.s"
@@ -2434,6 +2868,9 @@ help:
 	@echo "... tests/string_test2.o"
 	@echo "... tests/string_test2.i"
 	@echo "... tests/string_test2.s"
+	@echo "... tests/string_test4.o"
+	@echo "... tests/string_test4.i"
+	@echo "... tests/string_test4.s"
 	@echo "... tests/template_test1.o"
 	@echo "... tests/template_test1.i"
 	@echo "... tests/template_test1.s"
@@ -2494,6 +2931,9 @@ help:
 	@echo "... tests/yaml_test3.o"
 	@echo "... tests/yaml_test3.i"
 	@echo "... tests/yaml_test3.s"
+	@echo "... tests/yaml_test5.o"
+	@echo "... tests/yaml_test5.i"
+	@echo "... tests/yaml_test5.s"
 	@echo "... tests/yamltojson_test1.o"
 	@echo "... tests/yamltojson_test1.i"
 	@echo "... tests/yamltojson_test1.s"
